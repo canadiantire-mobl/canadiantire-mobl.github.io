@@ -1,0 +1,67 @@
+.forGreenArea {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 10px;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('public/Lato/LatoLatin-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('public/Lato/LatoLatin-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+}
+
+.nav {
+    height: 9.045rem;
+    box-shadow: 0px 0.268rem 0.402rem #00000029;
+    display: grid;
+    grid-template-columns: min-content repeat(4, auto) 1fr;
+    align-content: center;
+    padding-right: 2.345rem;
+    padding-left: 2.345rem;
+}
+
+.nav__logo {
+    width: 6.6365rem;
+    padding-right: 3.618rem;
+}
+
+.nav__link {
+    font-size: 1.876rem;
+    text-decoration: none;
+    color: #000000;
+    align-self: center;
+    font-weight: 500;
+    margin-right: 5.36rem;
+}
+
+.nav__button {
+    font-size: 1.876rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    background: #00792B;
+    border: 1px solid #707070;
+    border-radius: 0.938rem;
+    height: 3.618rem;
+    width: 16.683rem;
+    justify-self: right;
+    align-self: center;
+}
