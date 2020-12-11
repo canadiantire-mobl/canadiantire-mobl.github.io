@@ -141,3 +141,47 @@ body {
     margin: auto;
     max-width: 165.3rem;
 }
+
+/*
+    Community
+*/
+.community {
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #E8E8E8 100%) 0% 0% no-repeat padding-box;
+}
+/*
+    Meet the Team
+*/
+.meet-the-team {
+    max-width: 120.0rem;
+    margin: auto;
+}
+.team-members-list {
+    padding-bottom: 4rem;
+    padding-left: 0;
+}
+.member__content {
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 3px 6px #00000029;
+    padding: 5.4rem 6.7rem;
+    max-width: 76.2rem;
+}
+.member__content-img {
+    border-radius: 50%;
+    max-width: 244px;
+}
+.tns-nav {
+    text-align: center;
+}
+.tns-nav > [aria-controls] {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin: 0 5px;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid #707070;
+}
+.tns-nav > .tns-nav-active {
+    background: #666;
+}
