@@ -19,6 +19,14 @@
     text-rendering: optimizeLegibility;
 }
 
+@font-face {
+    font-family: 'Lato';
+    src: url('public/Lato/LatoLatin-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+}
+
 html {
     font-size: 10px;
 }
@@ -64,4 +72,47 @@ body {
     width: 16.683rem;
     justify-self: right;
     align-self: center;
+}
+
+.header-primary {
+    font-size: 4.02rem;
+    font-weight: bold;
+}
+
+.text-primary {
+    font-size: 1.876rem;
+    font-weight: 500; 
+}
+
+.button-primary {
+    width: 19.966rem;
+    height: 4.288rem;
+    background: #00792B;
+    border: 1px solid #707070;
+    border-radius: 0.938rem;
+    font-size: 2.278rem;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.content-intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50.786rem;
+    place-items: center;
+}
+
+.content-intro__text {
+    padding-top: 3.35rem;
+    padding-bottom: 4.02rem;
+    max-width: 46.23rem;
+}
+
+.content-intro__header {
+    max-width: 36rem;
+}
+
+
+.content-intro__img {
+    width: 51.121rem;
 }
