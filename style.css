@@ -43,59 +43,59 @@ body {
 }
 
 .nav {
-    height: 9.045rem;
-    box-shadow: 0px 0.268rem 0.402rem #00000029;
+    height: clamp(6.6rem, 7.03125vw, 13.5rem);
+    box-shadow: 0px 4px 6px #00000029;
     display: grid;
     grid-template-columns: min-content repeat(4, auto) 1fr;
     align-content: center;
-    padding-right: 2.345rem;
-    padding-left: 2.345rem;
+    padding-right: clamp(1.4rem, 1.82291667vw, 3.5rem);
+    padding-left: clamp(1.8rem, 1.77083333vw, 3.4rem);
 }
 
 .nav__logo {
-    width: 6.6365rem;
-    padding-right: 3.618rem;
+    width: clamp(4.53rem, 4.94791667vw, 9.5rem);
+    margin-right: clamp(1.5rem, 2.8125vw, 5.4rem);
 }
 
 .nav__link {
-    font-size: 1.876rem;
+    font-size: clamp(1.7rem, 1.45833333vw, 2.8rem);
     text-decoration: none;
     color: #000000;
     align-self: center;
     font-weight: 500;
-    margin-right: 5.36rem;
+    margin-right: clamp(1.5rem, 4.16666667vw, 8rem);
 }
 
 .nav__button {
-    font-size: 1.876rem;
+    font-size: clamp(1.7rem, 1.45833333vw, 2.8rem);
     font-weight: 500;
     color: #FFFFFF;
     background: #00792B;
     border: 1px solid #707070;
-    border-radius: 0.938rem;
-    height: 3.618rem;
-    width: 16.683rem;
+    border-radius: 1.4rem;
+    height: clamp(3.4rem, 2.8125vw, 5.4rem);
+    width: clamp(15.7rem, 12.96875vw, 24.9rem);
     justify-self: right;
     align-self: center;
 }
 
 .header-primary {
-    font-size: 4.02rem;
+    font-size: clamp(2.8rem, 3.125vw, 6rem);
     font-weight: bold;
 }
 
 .text-primary {
-    font-size: 1.876rem;
+    font-size: clamp(2rem, 1.45833333vw, 2.8rem);
     font-weight: 500;
 }
 
 .button-primary {
-    width: 19.966rem;
-    height: 4.288rem;
+    width: clamp(16rem, 15.5208333vw, 29.8rem);
+    height: clamp(4rem, 3.33333333vw, 6.4rem);
     background: #00792B;
     border: 1px solid #707070;
-    border-radius: 0.938rem;
-    font-size: 2.278rem;
+    border-radius: 1.4rem;
+    font-size: clamp(2.4rem, 1.77083333vw, 3.4rem);
     font-weight: 500;
     color: #FFFFFF;
 }
@@ -103,23 +103,23 @@ body {
 .content-intro {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 50.786rem;
+    height: clamp(45rem, 39.4791667vw, 75.8rem);
     place-items: center;
 }
 
 .content-intro__text {
-    padding-top: 3.35rem;
-    padding-bottom: 4.02rem;
-    max-width: 46.23rem;
+    padding-top: clamp(1.8rem, 2.60416667vw, 5rem);
+    padding-bottom: clamp(2.8rem, 3.125vw, 6rem);
+    width: clamp(32.8rem, 35.9375vw, 69rem);
 }
 
 .content-intro__header {
-    max-width: 36rem;
+    width: clamp(32.8rem, 27.58vw, 52.8rem);
 }
 
 
 .content-intro__img {
-    width: 51.121rem;
+    width: clamp(37.5rem, 39.7395833vw, 76.3rem);
 }
 
 /*
@@ -133,14 +133,142 @@ body {
     Covid Response
 */
 .covid-response {
-    background: #E8E8E8;
-    border: 1px solid #707070;
+    width: 100%;
+    background: #f3f3f3;
+    border: 1px solid #b8b8b8;
     display: grid;
     place-items: center;
-    font: normal normal normal 2.2rem/3.6rem Lato;
+    font-size: clamp(1.5rem, 1.14583333vw, 2.2rem);
     margin: auto;
+}
+
+.small-text {
+    width: 86.09375vw;
     max-width: 165.3rem;
 }
+
+.features {
+    background: transparent url('public/Rectangle 41.svg') 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: auto;
+    place-items: center;
+    padding-top: clamp(1.8rem, 5.208333333vw, 10rem);
+    padding-bottom: clamp(1.8rem, 3.125vw, 6rem);
+}
+
+.features__header-first {
+    text-align: center;
+    padding-bottom: clamp(1.8rem, 2.60416667vw, 5rem);
+}
+
+.features__text-first {
+    width: clamp(32.8rem, 53.5416667vw, 102.8rem);
+    text-align: center;
+}
+
+hr {
+    color: #FFFFFF;
+    width: clamp(32.8rem, 89.5833333vw, 172rem);
+    margin-top: clamp(1.8rem, 3.61979167vw, 6.95rem);
+    margin-bottom: clamp(1.8rem, 3.671875vw, 7.05rem);
+}
+
+.features__header-second {
+    width: 53.5416667vw;
+    max-width: 60.2rem;
+    text-align: center;
+    padding-bottom: clamp(1.8rem, 1.45833333vw, 2.8rem);
+}
+
+.features__text-second {
+    width: 61.1458333vw;
+    max-width: 117.4rem;
+    text-align: center;
+    padding-bottom: clamp(1.8rem, 1.45833333vw, 2.8rem);
+}
+
+.features__stats {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+}
+
+.features__stats-img {
+    width: 20.2083333vw;
+    max-width: 38.8rem;
+    grid-column: 2;
+}
+
+.features__stats-text {
+    display: grid;
+    grid-template-columns: auto;
+    gap: clamp(1.8rem, 2.8125vw, 5.4rem);
+    padding-left: clamp(1.8rem, 1.5625vw, 3rem);
+}
+
+.features__stats-header {
+    font-size: clamp(2.1rem, 2.39583333vw, 4.6rem);
+}
+
+.features__bubble {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.featues__bubble-text {
+    width: 23.0729167vw;
+    max-width: 44.3rem;
+    align-self: start;
+}
+
+.features__bubble-stars {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: clamp(2.1rem, 2.23958333vw, 4.3rem);
+    align-self: end;
+}
+
+.bubble {
+    position: relative;
+    background: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    width: 89.5833333vw;
+    max-width: 172rem;
+    height: clamp(2.1rem, 15.625vw, 30rem);
+    border-radius: 14px;
+    padding: 0px;
+    border: #ffffff solid 2px;
+}
+.bubble:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-width: 0 40px 20px 0;
+    border-color: transparent #000000 transparent transparent;
+    bottom: -20px;
+    left: 78%;
+    margin-left: -20px;
+}
+.bubble:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    z-index: 0;
+    border-style: solid;
+    border-width: 0 42px 22px 0;
+    border-color: transparent #ffffff transparent transparent;
+    bottom: -24px;
+    left: 78%;
+    margin-left: -20px;
+    display: block;
+}
+
 
 /*
     Community
@@ -168,6 +296,7 @@ body {
 }
 .member__content-img {
     border-radius: 50%;
+    width: 12.7083333vw;
     max-width: 244px;
 }
 .tns-nav {
@@ -185,3 +314,49 @@ body {
 .tns-nav > .tns-nav-active {
     background: #666;
 }
+
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: clamp(2rem, 2.60416667vw, 5rem) solid transparent;
+    border-bottom: clamp(2rem, 2.60416667vw, 5rem) solid transparent;
+    border-left: clamp(3rem, 3.125vw, 6rem) solid #666666;
+  }
+
+  .arrow-left {
+    width: 0; 
+    height: 0; 
+    border-top: clamp(2rem, 2.60416667vw, 5rem) solid transparent;
+    border-bottom: clamp(2rem, 2.60416667vw, 5rem) solid transparent;
+    border-right: clamp(3rem, 3.125vw, 6rem) solid #666666;
+  }
+
+  .tns-outer {
+      display: grid;
+  }
+  .tns-controls {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-row: 1;
+      grid-column: 1;
+  }
+
+  .tns-ovh {
+      grid-column: 1;
+      grid-row: 1;
+      padding-left: clamp(2rem, 9.16666667vw, 17.6rem);
+      padding-right: clamp(2rem, 9.16666667vw, 17.6rem);
+  }
+  [data-controls] {
+    border: 0;
+    padding: 0;
+    z-index: 1;
+    background: transparent;
+  }
+  [data-controls="prev"] {
+    width: clamp(3rem, 3.125vw, 6rem);
+  }
+  [data-controls="next"] {
+      width: clamp(3rem, 3.125vw, 6rem);
+    justify-self: end;
+  }

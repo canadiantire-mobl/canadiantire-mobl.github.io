@@ -5,4 +5,5 @@ var slider = tns({
   arrowKeys: true,
   gutter: 40,
   navPosition: 'after',
+  controlsText: ['<div class="arrow-left" />', '<div class="arrow-right" />'],
 });
