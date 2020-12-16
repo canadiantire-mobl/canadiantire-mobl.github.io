@@ -601,3 +601,71 @@ hr {
     font-size: clamp(1.3rem, 1.61458333vw, 3.1rem);
     font-weight: 500;
 }
+
+.ngt {
+    background: #f3f3f3;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin: auto;
+    gap: clamp(1rem, 3.38541667vw, 6.5rem);
+    padding: clamp(2rem, 3.38541667vw, 6.5rem) clamp(2rem, 5.20833333vw, 10rem) clamp(2rem, 3.38541667vw, 6.5rem) clamp(2rem, 5.20833333vw, 10rem);
+}
+
+.ngt-img {
+    width: clamp(37.5rem, 33.4375vw, 64.2rem);
+}
+
+.ngt-content {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.ngt-header {
+    font-size: clamp(2.8rem, 2.70833333vw, 5.2rem);
+    font-weight: bold;
+    align-self: start;
+}
+
+.ngt-text {
+    font-size: clamp(2rem, 1.45833333vw, 2.8rem);
+    font-weight: 500;
+}
+
+.ngt-button {
+    align-self: end;
+}
+
+.contact {
+    padding-top: clamp(1.8rem, 3.54166667vw, 6.8rem);
+    padding-bottom: clamp(1.8rem, 4.63541667vw, 8.9rem);
+    display: grid;
+    justify-items: center;
+}
+
+.contact-header {
+    font-size: clamp(2.8rem, 2.70833333vw, 5.2rem);
+    font-weight: bold;
+}
+
+.contact-text {
+    font-size: clamp(2rem, 1.875vw, 3.6rem);
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: clamp(1.8rem, 2.96875vw, 5.7rem);
+}
+
+.contact-person {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: clamp(1rem, 1.51041667vw, 2.9rem);
+}
+
+.contact-img {
+    width: clamp(6.8rem, 4.73958333vw, 9.1rem);
+}
+
+.contact-name {
+    font-size: clamp(1.8rem, 2.08333333vw, 4rem);
+    font-weight: bold;
+}
