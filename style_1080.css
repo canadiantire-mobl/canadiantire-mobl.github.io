@@ -1,0 +1,15 @@
+@media screen and (max-width: 1080px) {
+    .nav__logo {
+        width: 9.5rem;
+        margin-right: 2vw;
+    }
+
+    .nav__link {
+        font-size: 2rem;
+        margin-right: 2.1vw;
+    }
+
+    .nav__button {
+        font-size: 2rem;
+    }
+}

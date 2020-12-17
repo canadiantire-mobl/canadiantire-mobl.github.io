@@ -54,40 +54,45 @@ body {
 }
 
 .nav {
-    height: clamp(6.6rem, 7.03125vw, 13.5rem);
+    height: 13.5rem;
     box-shadow: 0px 4px 6px #00000029;
     display: grid;
     grid-template-columns: min-content repeat(4, auto) 1fr;
     align-content: center;
-    padding-right: clamp(1.4rem, 1.82291667vw, 3.5rem);
-    padding-left: clamp(1.8rem, 1.77083333vw, 3.4rem);
+    padding-right: 1.82291667vw;
+    padding-left: 1.77083333vw;
 }
 
 .nav__logo {
-    width: clamp(4.53rem, 4.94791667vw, 9.5rem);
-    margin-right: clamp(1.5rem, 2.8125vw, 5.4rem);
+    width: 9.5rem;
+    margin-right: 2.8125vw;
 }
 
 .nav__link {
-    font-size: clamp(1.7rem, 1.45833333vw, 2.8rem);
+    font-size: 2.8rem;
     text-decoration: none;
     color: #000000;
     align-self: center;
     font-weight: 500;
-    margin-right: clamp(1.5rem, 4.16666667vw, 8rem);
+    margin-right: 4.16666667vw;
 }
 
 .nav__button {
-    font-size: clamp(1.7rem, 1.45833333vw, 2.8rem);
+    font-size: 2.8rem;
     font-weight: 500;
     color: #FFFFFF;
     background: #00792B;
     border: 1px solid #707070;
     border-radius: 1.4rem;
-    height: clamp(3.4rem, 2.8125vw, 5.4rem);
-    width: clamp(15.7rem, 12.96875vw, 24.9rem);
+    height: 5.4rem;
+    width: 100%;
+    max-width: 24.9rem;
     justify-self: right;
     align-self: center;
+}
+
+#menu {
+    display: none;
 }
 
 .header-primary {

@@ -6,17 +6,32 @@
     <title>CTC Mobile & Build Engineering - Careers</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
     <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="style_1080.css">
+    <link rel="stylesheet" href="style_750.css">
+    <link rel="stylesheet" href="style_480.css">
 </head>
 <body>
     <div class="nav">
         <img class="nav__logo" src="public/CT_logo.png" />
-        <a class="nav__link" href="">The Work</a>
-        <a class="nav__link" href="">Our Culture</a>
-        <a class="nav__link" href="">Our Team</a>
-        <a class="nav__link" href="">Your Benefits</a>
+        <a class="nav__link" href="#work">The Work</a>
+        <a class="nav__link" href="#culture">Our Culture</a>
+        <a class="nav__link" href="#team">Our Team</a>
+        <a class="nav__link" href="#benefits">Your Benefits</a>
         <button class="nav__button">View all jobs</button>
+        <div class="nav__hamburger" onclick="navOpenClose()">
+            <div class="nav__hamburger-line"></div>
+            <div class="nav__hamburger-line"></div>
+            <div class="nav__hamburger-line"></div>
+        </div>
     </div>
+    <div id="menu">
+    <ul>
+        <a href="#work"><li>The Work</li></a>
+        <a href="#culture"><li>Our Culture</li></a>
+        <a href="#team"><li>our Team</li></a>
+        <a href="#benefits"><li>Your Benefits</li></a>
+    </ul>
+</div>
     <div class="content-intro">
         <div class="content-intro__content">
             <div class="header-primary content-intro__header">Giving Canadians the tools they need.</div>
@@ -33,7 +48,7 @@
     </section>
 
     <!-- Section: Main Features -->
-    <section class="features">
+    <section class="features" id="work">
         <div class="header-primary features__header-first">Mobile Apps and Build Engineering at Canadian Tire</div>
         <div class="text-primary features__text-first">Our mobile and build engineering team plays a critical role in our connected retail ecosystem. Our commitment to being a world-class digital organization involves our use of cutting-edge technologies across our 13 company banners, to bring our digital strategy to life through mobile devices. We’re improving customer experiences, driving traffic, and boosting loyalty from our 9 million loyalty members.</div>
         <hr noshade>
@@ -79,7 +94,7 @@
     </section>
 
     <!-- Section: Community -->
-    <section class="community">
+    <section class="community" id="culture">
         <div class="content-intro">
             <div class="content-intro__content">
                 <div class="header-primary">Join an Engaged Community</div>
@@ -101,7 +116,7 @@
             </div>
         </div>
         <div class="community__source">Sourced from: Glassdoor.com</div>
-        <div class="header-primary meet-the-team-header">Meet the team</div>
+        <div class="header-primary meet-the-team-header" id="team">Meet the team</div>
         <div class="meet-the-team">
             <ul class="team-members-list">
                 <li>
@@ -153,7 +168,7 @@
     </section>
 
     <!-- Section: What More Could You Ask For? -->
-    <section class="additional-features">
+    <section class="additional-features" id="benefits">
         <div class="header-primary additional-features__header">What More Could You Ask For?</div>
         <div class="additional-features__intro">
             <img class="additional-features__img" src="public/remote.svg" />

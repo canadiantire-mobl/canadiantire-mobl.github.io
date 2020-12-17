@@ -1,0 +1,19 @@
+@media screen and (max-width: 480px) {
+    .nav {
+        height: 6.6rem;
+        grid-template-columns: min-content 1fr min-content;
+        padding-right: 1.4rem;
+        padding-left: 1.8rem;
+    }
+
+    .nav__logo {
+        width: 4.53rem;
+        margin-right: 0;
+    }
+
+    .nav__button {
+        font-size: 1.7rem;
+        height: 2.1rem;
+        width: 9.4rem;
+    }
+}
