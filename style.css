@@ -96,22 +96,22 @@ body {
 }
 
 .header-primary {
-    font-size: clamp(2.8rem, 3.125vw, 6rem);
+    font-size: 6rem;
     font-weight: bold;
 }
 
 .text-primary {
-    font-size: clamp(2rem, 1.45833333vw, 2.8rem);
+    font-size: 2.8rem;
     font-weight: 500;
 }
 
 .button-primary {
-    width: clamp(16rem, 15.5208333vw, 29.8rem);
-    height: clamp(4rem, 3.33333333vw, 6.4rem);
+    width: 29.8rem;
+    height: 6.4rem;
     background: #00792B;
     border: 1px solid #707070;
     border-radius: 1.4rem;
-    font-size: clamp(2.4rem, 1.77083333vw, 3.4rem);
+    font-size: 3.4rem;
     font-weight: 500;
     color: #FFFFFF;
 }
@@ -119,23 +119,28 @@ body {
 .content-intro {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: clamp(45rem, 39.4791667vw, 75.8rem);
     place-items: center;
+    padding-top: 8rem;
+    padding-bottom: 8.7rem;
+    gap: 1rem;
+    margin-left: 2.3rem;
+    margin-right: 2.3rem;
 }
 
 .content-intro__text {
-    padding-top: clamp(1.8rem, 2.60416667vw, 5rem);
-    padding-bottom: clamp(2.8rem, 3.125vw, 6rem);
-    width: clamp(32.8rem, 35.9375vw, 69rem);
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+    max-width: 69rem;
 }
 
 .content-intro__header {
-    width: clamp(32.8rem, 27.58vw, 52.8rem);
+    max-width: 53rem;
 }
 
 
 .content-intro__img {
-    width: clamp(37.5rem, 39.7395833vw, 76.3rem);
+    width: 100%;
+    max-width: 76.3rem;
 }
 
 /*
@@ -154,7 +159,7 @@ body {
     border: 1px solid #b8b8b8;
     display: grid;
     place-items: center;
-    font-size: clamp(1.5rem, 1.14583333vw, 2.2rem);
+    font-size: 2.2rem;
     margin: auto;
 }
 
@@ -164,44 +169,47 @@ body {
 }
 
 .features {
-    background: transparent url('public/Rectangle 41.svg') 0% 0% no-repeat padding-box;
+    background: transparent radial-gradient(20% 20% at 50% 50%, #0009 0%, #000 100%) 0% 0% no-repeat padding-box;
     color: #FFFFFF;
     display: grid;
     grid-template-columns: auto;
     place-items: center;
-    padding-top: clamp(1.8rem, 5.208333333vw, 10rem);
-    padding-bottom: clamp(1.8rem, 3.125vw, 6rem);
+    padding-top: 10rem;
+    padding-bottom: 6rem;
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
 }
 
 .features__header-first {
     text-align: center;
-    padding-bottom: clamp(1.8rem, 2.60416667vw, 5rem);
+    padding-bottom: 5rem;
 }
 
 .features__text-first {
-    width: clamp(32.8rem, 53.5416667vw, 102.8rem);
+    max-width: 102.8rem;
     text-align: center;
 }
 
 hr {
     color: #FFFFFF;
-    width: clamp(32.8rem, 89.5833333vw, 172rem);
-    margin-top: clamp(1.8rem, 3.61979167vw, 6.95rem);
-    margin-bottom: clamp(1.8rem, 3.671875vw, 7.05rem);
+    width: 100%;
+    max-width: 172rem;
+    margin-top: 6.95rem;
+    margin-bottom: 7.05rem;
 }
 
 .features__header-second {
-    width: 53.5416667vw;
+    width: 100%;
     max-width: 60.2rem;
     text-align: center;
-    padding-bottom: clamp(1.8rem, 1.45833333vw, 2.8rem);
+    padding-bottom: 2.8rem;
 }
 
 .features__text-second {
-    width: 61.1458333vw;
+    width: 100%;
     max-width: 117.4rem;
     text-align: center;
-    padding-bottom: clamp(1.8rem, 1.45833333vw, 2.8rem);
+    padding-bottom: 2.8rem;
 }
 
 .features__stats {
@@ -211,7 +219,7 @@ hr {
 }
 
 .features__stats-img {
-    width: 20.2083333vw;
+    width: 100%;
     max-width: 38.8rem;
     grid-column: 2;
 }
@@ -219,12 +227,26 @@ hr {
 .features__stats-text {
     display: grid;
     grid-template-columns: auto;
-    gap: clamp(1.8rem, 2.8125vw, 5.4rem);
-    padding-left: clamp(1.8rem, 1.5625vw, 3rem);
+    gap: 5.4rem;
+    padding-left: 3rem;
 }
 
 .features__stats-header {
-    font-size: clamp(2.1rem, 2.39583333vw, 4.6rem);
+    font-size: 4.6rem;
+    font-weight: bold;
+}
+
+.features__stats-text-text {
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.features__stats-mobile {
+    display: none;
+}
+
+.features__bubble-mobile {
+    display: none;
 }
 
 .features__bubble {
@@ -235,20 +257,19 @@ hr {
 }
 
 .featues__bubble-text {
-    width: 23.0729167vw;
+    width: 100%;
     max-width: 44.3rem;
     align-self: start;
 }
 
 .features__bubble-stars {
     font-family: "Helvetica Neue", Helvetica, sans-serif;
-    font-size: clamp(2.1rem, 2.23958333vw, 4.3rem);
+    font-size: 4.3rem;
     align-self: end;
 }
 
 .bubble {
     position: relative;
-    background: #000000;
     color: #FFFFFF;
     text-align: center;
     width: 89.5833333vw;
@@ -286,26 +307,26 @@ hr {
 }
 
 .video {
-    width: clamp(37.5rem, 41.71875vw, 80.1rem);
-    height: clamp(18.8rem, 20.9895833vw, 40.3rem);
-    background-color: grey;
-    margin-top: clamp(1.8rem, 2.5171875vw, 4.833rem);
-    margin-bottom: clamp(1.8rem, 2.65625vw, 5.1rem);
+    width: 100%;
+    max-width: 80.1rem;
+    max-height: 40.3rem;
+    margin-top: 4.833rem;
+    margin-bottom: 5.1rem;
 }
 
 .app-text {
-    font-size: clamp(2rem, 1.45833333vw, 2.8rem);
+    font-size: 2.8rem;
     font-weight: bold;
-    padding-bottom: clamp(1rem, 1.61458333vw, 3.1rem);;
+    padding-bottom: 3.1rem;
 }
 
 .app-img-container {
     display: grid;
     grid-template-columns: auto auto;
-    gap: clamp(1rem, 2.23958333vw, 4.3rem);
+    gap: 4.3rem;
 }
 .app-img {
-    height: clamp(3rem, 4.16666667vw, 8rem);
+    height: 8rem;
 }
 
 
@@ -328,45 +349,49 @@ hr {
     text-align: center;
     margin: auto;
     padding-top: 2.5rem;
-    padding-bottom: clamp(2.5rem, 1.82291667vw, 3.5rem);
-    width: clamp(37.5rem, 89.5833333vw, 172rem);
+    padding-bottom: 3.5rem;
+    width: 100%;
+    max-width: 172rem;
 }
 
 .community__stats-percent {
-    font-size: clamp(6.5rem, 3.69791667vw, 7.1rem);
+    font-size: 7.1rem;
     font-weight: bold;
     text-decoration: underline;
-    padding-bottom: clamp(1.4rem, 1.30208333vw, 2.5rem);
+    padding-bottom: 2.5rem;
 }
 
 .community__stats-percent-text {
-    font-size: clamp(1.5rem, 1.25vw, 2.4rem);
+    font-size: 2.4rem;
     font-weight: 500;
-    width: clamp(22rem, 16.3541667vw, 31.4rem);
+    width: 100%;
+    max-width: 31.4rem;
 }
 
 .community__stats-review {
-    font-size: clamp(1.9rem, 1.77083333vw, 3.4rem);
+    font-size: 3.4rem;
     font-weight: 300;
-    width: clamp(32.8rem, 26.25vw, 50.4rem);
-    padding-bottom: clamp(1.4rem, 1.30208333vw, 2.5rem); 
+    width: 100%;
+    max-width: 50.4rem;
+    padding-bottom: 2.5rem; 
 }
 
 .community__stats-review-employee {
-    font-size: clamp(1.1rem, 1.25vw, 2.4rem);
+    font-size: 2.4rem;
     font-weight: 500;
 }
 
 .community__stats-review-location {
-    font-size: clamp(1.1rem, 1.25vw, 2.4rem);
+    font-size: 2.4rem;
     font-style: italic;
 }
 
 .community__source {
-    font-size: clamp(1.3rem, 0.9375vw, 1.8rem);
+    font-size: 1.8rem;
     font-weight: 500;
     color: #666666;
-    width: clamp(37.5rem, 89.5833333vw, 172rem);
+    width: 100%;
+    max-width: 172rem;
     display: grid;
     justify-items: end;
     margin: auto;
@@ -378,14 +403,15 @@ hr {
     Meet the Team
 */
 .meet-the-team-header {
-    padding-bottom: clamp(1.8rem, 3.95833333vw, 7.6rem);
+    padding-bottom: 7.6rem;
     text-align: center;
 }
 
 .meet-the-team {
-    max-width: 120.0rem;
-    margin: auto;
-    padding-bottom: clamp(1.8rem, 4.16666667vw, 8rem);
+    width: 100%;
+    padding-bottom: 8rem;
+    padding-left: 5.4rem;
+    padding-right: 5.4rem;
 }
 .team-members-list {
     padding-bottom: 4rem;
@@ -395,7 +421,8 @@ hr {
     border-radius: 20px;
     background: #fff;
     box-shadow: 0px 3px 6px #00000029;
-    padding: clamp(1rem, 2.8125vw, 5.4rem) clamp(1rem, 3.48958333vw, 6.7rem);
+    padding: 5.4rem 6.7rem;
+    width: 100%;
     max-width: 76.2rem;
 }
 
@@ -403,7 +430,7 @@ hr {
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
-    gap: clamp(1rem, 2.23958333vw, 4.3rem);
+    gap: 4.3rem;
 }
 
 .member__content-img {
@@ -415,31 +442,31 @@ hr {
 }
 
 .member__content-name {
-    font-size: clamp(2.1rem, 1.66666667vw, 3.2rem);
+    font-size: 3.2rem;
     font-weight: bold;
 }
 
 .member__content-role-primary {
-    font-size: clamp(1.7rem, 1.25vw, 2.4rem);
+    font-size: 2.4rem;
     font-weight: 500;
 }
 
 .member__content-role-secondary {
-    font-size: clamp(1.7rem, 1.25vw, 2.4rem);
+    font-size: 2.4rem;
     font-style: italic;
 }
 
 .member__content-favourites {
-    font-size: clamp(1.7rem, 1.25vw, 2.4rem);
-    padding-top: clamp(0.9rem, 1.40625vw, 2.7rem);
-    padding-bottom: clamp(0.9rem, 1.25vw, 2.4rem);
+    font-size: 1.7rem, 1.25vw, 2.4rem;
+    padding-top: 2.7rem;
+    padding-bottom: 2.4rem;
 }
 .member__content-favourites-bold {
     font-weight: bold;
 }
 
 .member__content-quote {
-    font-size: clamp(1.8rem, 1.45833333vw, 2.8rem);
+    font-size: 2.8rem;
     font-weight: 300;
 }
 
@@ -448,8 +475,8 @@ hr {
 }
 
 .tns-nav > [aria-controls] {
-    width: clamp(1rem, 1.04166667vw, 2rem);
-    height: clamp(1rem, 1.04166667vw, 2rem);
+    width: 2rem;
+    height: 2rem;
     padding: 0;
     margin: 0 5px;
     border-radius: 50%;

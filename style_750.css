@@ -58,4 +58,111 @@
         color: #000000;
         padding: 10px 0;
     }
+
+    .header-primary {
+        font-size: 6rem;
+    }
+
+    .text-primary {
+        font-size: 2.8rem;
+    }
+
+    .content-intro {
+        grid-template-columns: 1fr;
+        gap: 5.6rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .features {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .features__header-first {
+        max-width: 46.8rem;
+    }
+
+    .features__text-first {
+        max-width: 63.2rem;
+    }
+
+    .features__header-second {
+        max-width: 71rem;
+    }
+
+    .features__text-second {
+        max-width: 60rem;
+    }
+
+    .features__stats {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .features__stats-img {
+        width: 100%;
+        max-width: 32.6rem;
+        grid-column: 1;
+    }
+
+    .features__stats-text {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 3.1rem;
+        padding-left: 0;
+    }
+    
+    .features__stats-header {
+        font-size: 4.1rem;
+    }
+
+    .features__stats-text-text {
+        font-size: 2.3rem;
+    }
+
+    .features__stats-desktop {
+        display: none;
+    }
+
+    .features__stats-mobile {
+        display: block;
+    }
+
+    .features__bubble-mobile {
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        gap: 4rem;
+        width: 100%;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        text-align: center;
+    }
+
+    .features__bubble-mobile hr {
+        margin: 0;
+    }
+
+    .video {
+        margin-top: 8.75rem;
+        margin-bottom: 3.3rem;
+    }
+
+    .community .content-intro__img {
+        grid-row: 1;
+    }
+
+    .community .content-intro__content {
+        text-align: center;
+    }
+
+    .community__stats {
+        grid-template-columns: 1fr;
+        gap: 7.5rem;
+        width: calc(100vw - 6.6rem);
+    }
+
+    .community__source {
+        width: calc(100vw - 6.6rem);
+    }
 }

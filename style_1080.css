@@ -12,4 +12,26 @@
     .nav__button {
         font-size: 2rem;
     }
+
+    .header-primary {
+        font-size: 4rem;
+    }
+
+    .text-primary {
+        font-size: 2rem;
+    }
+
+    .features {
+        background: transparent radial-gradient(40% 20% at 27% 57%, #00000099 0%, #000 100%) 0% 0% no-repeat padding-box;
+    }
+
+    .features__stats-text-text {
+        font-size: 2rem;
+    }
+    .features__stats {
+        grid-template-columns: 1fr 1fr;
+    }
+    .features__stats-img {
+        grid-column: 1;
+    }
 }
