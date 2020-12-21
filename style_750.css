@@ -165,4 +165,134 @@
     .community__source {
         width: calc(100vw - 6.6rem);
     }
+
+    .meet-the-team {
+        padding-left: 1.7rem;
+        padding-right: 1.7rem;
+    }
+
+    .member-stats {
+        gap: 3.6rem;
+    }
+    
+    .member__content-name {
+        font-size: 2.7rem;
+    }
+    
+    .member__content-role-primary {
+        font-size: 2rem;
+    }
+    
+    .member__content-role-secondary {
+        font-size: 2rem;
+    }
+    
+    .member__content-favourites {
+        font-size: 2rem;
+    }
+
+    .additional-features {
+        padding-left: 3.6rem;
+        padding-right: 3.6rem;
+    }
+
+    .additional-features__intro {
+        grid-template-columns: 1fr;
+        padding-bottom: 6.9rem;
+    }
+    
+    .additional-features__text {
+        width: 69rem;
+        font-size: 3.6rem;
+    }
+    
+    .additional-features__img {
+        width: 100%;
+        max-width: 37.8rem;
+        padding-bottom: 5rem;
+    }
+
+    .additional-features__icons {
+        display: none;
+    }
+    
+    .additional-features__icons-mobile {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+    
+    .additional-features__icons-img {
+        max-width: 13.4rem;
+        align-self: center;
+    }
+    
+    .additional-features__icons-header {
+        font-size: 2.8rem;
+    }
+    
+    .additional-features__icons-text {
+        font-size: 2.2rem;
+        max-width: 32rem;
+    }
+
+    .job-postings {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+        padding-left: 3.7rem;
+        padding-right: 3.7rem;
+    }
+    
+    .job-postings__container {
+        padding-top: 4.7rem; 
+        padding-bottom: 5.8rem;
+    }
+    
+    .job-postings__content {
+        padding-top: 4rem;
+        padding-bottom: 8rem;
+        padding-left: 3.7rem;
+        padding-right: 3.7rem;
+        gap: 4rem;
+    }
+    
+    .job-postings__content-header {
+        font-size: 4rem;
+    }
+    
+    .job-postings__content-date {
+        font-size: 2.1rem;
+    }
+
+    .ngt {
+        grid-template-columns: auto;
+        gap: 6.5rem;
+        padding: 4.5rem 3.7rem 6.4rem 3.7rem;
+    }
+    
+    .ngt-img {
+        max-width: 67.5rem;
+    }
+    
+    .ngt-content {
+        text-align: center;
+        justify-items: center;
+        gap: 6.4rem;
+    }
+    
+    .ngt-header {
+        max-width: 50rem;
+    }
+
+    .contact-text {
+        display: none;
+    }
+    
+    .contact-text-mobile {
+        display: block;
+        font-size: 3.6rem;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 5.7rem;
+    }
 }

@@ -1,9 +1,16 @@
 var slider = tns({
   container: '.team-members-list',
-  items: 2,
+  items: 1,
+  edgePadding: 0,
+  responsive: {
+    751: {
+      items: 2,
+      gutter: 40,
+    },
+  },
   autoplay: false,
   arrowKeys: true,
-  gutter: 40,
+  gutter: 100,
   navPosition: 'after',
   controlsText: ['<div class="arrow-left" />', '<div class="arrow-right" />'],
 });

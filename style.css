@@ -457,7 +457,7 @@ hr {
 }
 
 .member__content-favourites {
-    font-size: 1.7rem, 1.25vw, 2.4rem;
+    font-size: 2.4rem;
     padding-top: 2.7rem;
     padding-bottom: 2.4rem;
 }
@@ -549,23 +549,23 @@ hr {
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
-    padding-bottom: clamp(6.4rem, 6.45052083vw, 12.385rem);
+    padding-bottom: 12.385rem;
 }
 
 .additional-features__header {
     text-align: center;
-    padding-top: clamp(1.8rem, 5.20833333vw, 10rem);
-    padding-bottom: clamp(3.2rem, 5.57291667vw, 10.7rem);
+    padding-top: 10rem;
+    padding-bottom: 10.7rem;
 }
 
 .additional-features__text {
-    width: clamp(32.8rem, 35.9375vw, 69rem);
-    font-size: clamp(2rem, 1.875vw, 3.6rem);
+    width: 69rem;
+    font-size: 3.6rem;
     font-weight: 500;
 }
 
 .additional-features__img {
-    width: clamp(37.5rem, 21.875vw, 42rem);
+    width: 42rem;
 }
 
 .additional-features__icons {
@@ -574,23 +574,28 @@ hr {
     justify-items: center;
 }
 
+.additional-features__icons-mobile {
+    display: none;
+}
+
 .additional-features__icons-img {
-    width: clamp(12.1rem, 6.97916667vw, 13.4rem);
+    width: 13.4rem;
     align-self: center;
 }
 
 .additional-features__icons-header {
-    font-size: clamp(1.8rem, 1.97916667vw, 3.8rem);
+    font-size: 3.8rem;
     font-weight: bold;
     text-align: center;
 }
 
 .additional-features__icons-text {
-    font-size: clamp(1.4rem, 1.45833333vw, 2.8rem);
+    font-size: 2.8rem;
     font-weight: 500;
     text-align: center;
-    width: clamp(16.7rem, 24.8958333vw, 47.8rem);
-    padding-bottom: clamp(1.7rem, 4.42708333vw, 8.5rem);
+    width: 100%;
+    max-width: 47.8rem;
+    padding-bottom: 8.5rem;
 }
 
 /*
@@ -600,37 +605,37 @@ hr {
     background: #000000;
     display: grid;
     justify-content: center;
-    padding-top: clamp(1.8rem, 5.20833333vw, 10rem);
-    padding-bottom: clamp(1.8rem, 5.20833333vw, 10rem);
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
 
 .job-postings__container {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 20px;
-    width: clamp(33rem, 78.125vw, 150rem);
+    grid-template-columns: minmax(auto, 150rem);
     display: grid;
     justify-items: center;
-    padding-top: clamp(1.8rem, 2.44791667vw, 4.7rem); 
-    padding-bottom: clamp(3.2rem, 4.53125vw, 8.7rem);
+    padding-top: 4.7rem; 
+    padding-bottom: 8.7rem;
 }
 
 .job-postings__content {
-    padding-top: clamp(1.8rem, 3.59375vw, 6.9rem);
-    padding-bottom: clamp(3.2rem, 5.67708333vw, 10.9rem);
+    padding-top: 6.9rem;
+    padding-bottom: 10.9rem;
     display: grid;
     grid-template-columns: auto;
-    gap: clamp(2rem, 2.34375vw, 4.5rem);
+    gap: 4.5rem;
     text-align: center;
 }
 
 .job-postings__content-header {
-    font-size: clamp(2.1rem, 2.60416667vw, 5rem);
+    font-size: 5rem;
     font-weight: 500;
 }
 
 .job-postings__content-date {
-    font-size: clamp(1.3rem, 1.61458333vw, 3.1rem);
+    font-size: 3.1rem;
     font-weight: 500;
 }
 
@@ -639,12 +644,13 @@ hr {
     display: grid;
     grid-template-columns: auto 1fr;
     margin: auto;
-    gap: clamp(1rem, 3.38541667vw, 6.5rem);
-    padding: clamp(2rem, 3.38541667vw, 6.5rem) clamp(2rem, 5.20833333vw, 10rem) clamp(2rem, 3.38541667vw, 6.5rem) clamp(2rem, 5.20833333vw, 10rem);
+    gap: 6.5rem;
+    padding: 6.5rem 10rem 6.5rem 10rem;
 }
 
 .ngt-img {
-    width: clamp(37.5rem, 33.4375vw, 64.2rem);
+    width: 100%;
+    max-width: 64.2rem;
 }
 
 .ngt-content {
@@ -653,13 +659,13 @@ hr {
 }
 
 .ngt-header {
-    font-size: clamp(2.8rem, 2.70833333vw, 5.2rem);
+    font-size: 5.2rem;
     font-weight: bold;
     align-self: start;
 }
 
 .ngt-text {
-    font-size: clamp(2rem, 1.45833333vw, 2.8rem);
+    font-size: 2.8rem;
     font-weight: 500;
 }
 
@@ -668,36 +674,40 @@ hr {
 }
 
 .contact {
-    padding-top: clamp(1.8rem, 3.54166667vw, 6.8rem);
-    padding-bottom: clamp(1.8rem, 4.63541667vw, 8.9rem);
+    padding-top: 6.8rem;
+    padding-bottom: 8.9rem;
     display: grid;
     justify-items: center;
 }
 
 .contact-header {
-    font-size: clamp(2.8rem, 2.70833333vw, 5.2rem);
+    font-size: 5.2rem;
     font-weight: bold;
 }
 
 .contact-text {
-    font-size: clamp(2rem, 1.875vw, 3.6rem);
+    font-size: 3.6rem;
     font-weight: 500;
     text-align: center;
-    padding-bottom: clamp(1.8rem, 2.96875vw, 5.7rem);
+    padding-bottom: 5.7rem;
+}
+
+.contact-text-mobile {
+    display: none;
 }
 
 .contact-person {
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
-    gap: clamp(1rem, 1.51041667vw, 2.9rem);
+    gap: 2.9rem;
 }
 
 .contact-img {
-    width: clamp(6.8rem, 4.73958333vw, 9.1rem);
+    width: 9.1rem;
 }
 
 .contact-name {
-    font-size: clamp(1.8rem, 2.08333333vw, 4rem);
+    font-size: 4rem;
     font-weight: bold;
 }

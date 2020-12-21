@@ -191,4 +191,143 @@
         width: calc(100vw - 4.6rem);
     }
 
+    .member__content-name {
+        font-size: 2.1rem;
+    }
+    
+    .member__content-role-primary {
+        font-size: 1.7rem;
+    }
+    
+    .member__content-role-secondary {
+        font-size: 1.7rem;
+    }
+    
+    .member__content-favourites {
+        font-size: 1.7rem;
+    }
+
+    .member__content-quote {
+        font-size: 1.7rem;
+    }
+
+    .additional-features {
+        padding-left: 1.7rem;
+        padding-right: 1.7rem;
+    }
+
+    .additional-features__intro {
+        padding-bottom: 6.4rem;
+    }
+    
+    .additional-features__text {
+        width: 100%;
+        font-size: 2rem;
+    }
+    
+    .additional-features__img {
+        width: 100%;
+        max-width: 28.4rem;
+        padding-bottom: 5rem;
+    }
+    .additional-features__icons-img {
+        width: 100%;
+        max-width: 12.1rem;
+    }
+    
+    .additional-features__icons-header {
+        font-size: 1.8rem;
+    }
+    
+    .additional-features__icons-text {
+        font-size: 1.4rem;
+    }
+
+    .job-postings {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-left: 2.3rem;
+        padding-right: 2.3rem;
+    }
+    
+    .job-postings__container {
+        padding-top: 2rem; 
+        padding-bottom: 3rem;
+    }
+    
+    .job-postings__content {
+        padding-top: 3.2rem;
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        gap: 2rem;
+    }
+    
+    .job-postings__content-header {
+        font-size: 2.1rem;
+    }
+    
+    .job-postings__content-date {
+        font-size: 1.3rem;
+    }
+
+    .ngt {
+        gap: 6.4rem;
+        padding: 6rem 0 1.8rem 0;
+    }
+    
+    .ngt-img {
+        grid-row-start: 2;
+    }
+    
+    .ngt-content {
+        text-align: left;
+        justify-items: left;
+        gap: 1.7rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    .ngt-header {
+        font-size: 2.8rem;
+        max-width: 27rem;
+    }
+    
+    .ngt-text {
+        font-size: 2rem;
+    }
+    
+    .ngt-button {
+        align-self: end;
+    }
+
+    .contact {
+        padding-top: 3.2rem;
+        justify-items: left;
+        padding-left: 2.3rem;
+        padding-right: 2.3rem;
+    }
+    
+    .contact-header {
+        font-size: 2.8rem;
+    }
+
+    .contact-text-mobile {
+        font-size: 2rem;
+        text-align: left;
+        padding-bottom: 2.5rem;
+    }
+    
+    .contact-person {
+        gap: 2rem;
+    }
+    
+    .contact-img {
+        max-width: 6.8rem;
+    }
+    
+    .contact-name {
+        font-size: 2.1rem;
+    }
+
 }
