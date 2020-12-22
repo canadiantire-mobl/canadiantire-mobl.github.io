@@ -424,11 +424,13 @@ hr {
     padding: 5.4rem 6.7rem;
     width: 100%;
     max-width: 76.2rem;
+    margin: auto;
 }
 
 .member-stats {
     display: grid;
     grid-template-columns: auto auto;
+    justify-items: center;
     align-items: center;
     gap: 4.3rem;
 }
@@ -491,17 +493,17 @@ hr {
 .arrow-right {
     width: 0; 
     height: 0; 
-    border-top: clamp(2rem, 2.60416667vw, 5rem) solid transparent;
-    border-bottom: clamp(2rem, 2.60416667vw, 5rem) solid transparent;
-    border-left: clamp(3rem, 3.125vw, 6rem) solid #666666;
+    border-top: 5rem solid transparent;
+    border-bottom: 5rem solid transparent;
+    border-left: 6rem solid #666666;
 }
 
 .arrow-left {
     width: 0; 
     height: 0; 
-    border-top: clamp(2rem, 2.60416667vw, 5rem) solid transparent;
-    border-bottom: clamp(2rem, 2.60416667vw, 5rem) solid transparent;
-    border-right: clamp(3rem, 3.125vw, 6rem) solid #666666;
+    border-top: 5rem solid transparent;
+    border-bottom: 5rem solid transparent;
+    border-right: 6rem solid #666666;
 }
 
 .tns-outer {
@@ -518,8 +520,8 @@ hr {
 .tns-ovh {
     grid-column: 1;
     grid-row: 1;
-    padding-left: clamp(2rem, 9.16666667vw, 17.6rem);
-    padding-right: clamp(2rem, 9.16666667vw, 17.6rem);
+    padding-left: 17.6rem;
+    padding-right: 17.6rem;
 }
   
 [data-controls] {
@@ -530,11 +532,11 @@ hr {
 }
 
 [data-controls="prev"] {
-    width: clamp(3rem, 3.125vw, 6rem);
+    width: 6rem;
 }
 
 [data-controls="next"] {
-    width: clamp(3rem, 3.125vw, 6rem);
+    width: 6rem;
     justify-self: end;
 }
 

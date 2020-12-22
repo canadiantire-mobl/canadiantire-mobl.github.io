@@ -1,9 +1,8 @@
 var slider = tns({
   container: '.team-members-list',
   items: 1,
-  edgePadding: 0,
   responsive: {
-    751: {
+    1760: {
       items: 2,
       gutter: 40,
     },

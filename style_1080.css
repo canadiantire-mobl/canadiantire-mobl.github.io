@@ -34,4 +34,38 @@
     .features__stats-img {
         grid-column: 1;
     }
+
+    .ngt {
+        grid-template-columns: auto;
+        justify-items: center;
+    }
+
+    .ngt-content {
+        gap: 6.4rem;
+    }
+
+    .arrow-right {
+        border-top: 3rem solid transparent;
+        border-bottom: 3rem solid transparent;
+        border-left: 4rem solid #666666;
+    }
+
+    .arrow-left {
+        border-top: 3rem solid transparent;
+        border-bottom: 3rem solid transparent;
+        border-right: 4rem solid #666666;
+    }
+
+    .tns-ovh {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    [data-controls="prev"] {
+        width: 3rem;
+    }
+    
+    [data-controls="next"] {
+        width: 3rem;
+    }
 }

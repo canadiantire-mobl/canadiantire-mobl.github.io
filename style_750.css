@@ -77,6 +77,7 @@
     .features {
         padding-left: 4rem;
         padding-right: 4rem;
+        background: transparent radial-gradient(40% 7% at 27% 54%, #0009 0%, #000 100%) 0% 0% no-repeat padding-box;
     }
 
     .features__header-first {
@@ -148,6 +149,10 @@
         margin-bottom: 3.3rem;
     }
 
+    .app-img {
+        height: 10.6666667vw;
+    }
+
     .community .content-intro__img {
         grid-row: 1;
     }
@@ -174,6 +179,10 @@
     .member-stats {
         gap: 3.6rem;
     }
+
+    .member__content {
+        padding: 3rem 3rem;
+    }
     
     .member__content-name {
         font-size: 2.7rem;
@@ -191,6 +200,31 @@
         font-size: 2rem;
     }
 
+    .arrow-right {
+        border-top: 2rem solid transparent;
+        border-bottom: 2rem solid transparent;
+        border-left: 3rem solid #666666;
+    }
+
+    .arrow-left {
+        border-top: 2rem solid transparent;
+        border-bottom: 2rem solid transparent;
+        border-right: 3rem solid #666666;
+    }
+
+    .tns-ovh {
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+    }
+
+    [data-controls="prev"] {
+        width: 3rem;
+    }
+    
+    [data-controls="next"] {
+        width: 3rem;
+    }
+
     .additional-features {
         padding-left: 3.6rem;
         padding-right: 3.6rem;
@@ -199,10 +233,13 @@
     .additional-features__intro {
         grid-template-columns: 1fr;
         padding-bottom: 6.9rem;
+        gap: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
     
     .additional-features__text {
-        width: 69rem;
+        max-width: 69rem;
         font-size: 3.6rem;
     }
     
@@ -287,7 +324,7 @@
     .contact-text {
         display: none;
     }
-    
+
     .contact-text-mobile {
         display: block;
         font-size: 3.6rem;

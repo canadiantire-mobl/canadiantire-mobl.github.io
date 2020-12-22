@@ -78,7 +78,7 @@
         padding-right: 0;
         padding-top: 2.5rem;
         padding-bottom: 2.5rem;
-        background: transparent radial-gradient(40% 20% at 27% 57%, #00000099 0%, #000 100%) 0% 0% no-repeat padding-box;
+        background: transparent radial-gradient(30% 10% at 27% 47%, #00000099 0%, #000 100%) 0% 0% no-repeat padding-box;
     }
 
     .features__header-first {
@@ -191,6 +191,24 @@
         width: calc(100vw - 4.6rem);
     }
 
+    .meet-the-team {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .member__content {
+        padding: 1rem 1rem;
+    }
+
+    .member-stats {
+        display: grid;
+        grid-template-columns: auto;
+        justify-items: center;
+        align-items: center;
+        gap: 1rem;
+        text-align: center;
+    }
+
     .member__content-name {
         font-size: 2.1rem;
     }
@@ -209,6 +227,31 @@
 
     .member__content-quote {
         font-size: 1.7rem;
+    }
+
+    .arrow-right {
+        border-top: 2rem solid transparent;
+        border-bottom: 2rem solid transparent;
+        border-left: 3rem solid #666666;
+    }
+
+    .arrow-left {
+        border-top: 2rem solid transparent;
+        border-bottom: 2rem solid transparent;
+        border-right: 3rem solid #666666;
+    }
+
+    .tns-ovh {
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+    }
+
+    [data-controls="prev"] {
+        width: 3rem;
+    }
+    
+    [data-controls="next"] {
+        width: 3rem;
     }
 
     .additional-features {
