@@ -272,9 +272,9 @@ hr {
     position: relative;
     color: #FFFFFF;
     text-align: center;
-    width: 89.5833333vw;
+    width: 100%;
     max-width: 172rem;
-    height: clamp(2.1rem, 15.625vw, 30rem);
+    height: 30rem;
     border-radius: 14px;
     padding: 0px;
     border: #ffffff solid 2px;
@@ -350,7 +350,7 @@ hr {
     margin: auto;
     padding-top: 2.5rem;
     padding-bottom: 3.5rem;
-    width: 100%;
+    width: calc(100vw - 4.6rem);
     max-width: 172rem;
 }
 
@@ -390,7 +390,7 @@ hr {
     font-size: 1.8rem;
     font-weight: 500;
     color: #666666;
-    width: 100%;
+    width: calc(100vw - 4.6rem);
     max-width: 172rem;
     display: grid;
     justify-items: end;
@@ -550,6 +550,9 @@ hr {
     grid-template-columns: 1fr 1fr;
     place-items: center;
     padding-bottom: 12.385rem;
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .additional-features__header {
@@ -559,13 +562,15 @@ hr {
 }
 
 .additional-features__text {
-    width: 69rem;
+    width: 100%;
+    max-width: 69rem;
     font-size: 3.6rem;
     font-weight: 500;
 }
 
 .additional-features__img {
-    width: 42rem;
+    width: 100%;
+    max-width: 42rem;
 }
 
 .additional-features__icons {
@@ -607,6 +612,8 @@ hr {
     justify-content: center;
     padding-top: 10rem;
     padding-bottom: 10rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .job-postings__container {
