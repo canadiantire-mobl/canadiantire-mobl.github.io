@@ -22,7 +22,7 @@
     }
 
     .features {
-        background: transparent radial-gradient(40% 20% at 27% 57%, #00000099 0%, #000 100%) 0% 0% no-repeat padding-box;
+        background: transparent radial-gradient(40% 20% at 27% 45%, #00000099 0%, #000 100%) 0% 0% no-repeat padding-box;
     }
 
     .features__stats-text-text {
@@ -57,8 +57,8 @@
     }
 
     .tns-ovh {
-        padding-left: 5rem;
-        padding-right: 5rem;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     [data-controls="prev"] {

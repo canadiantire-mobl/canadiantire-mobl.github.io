@@ -77,6 +77,28 @@ body {
     margin-right: 4.16666667vw;
 }
 
+a.left
+{
+    position: relative;
+}
+
+a.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+a.left:hover:before {
+    visibility: visible;
+    width: 100%;
+}
+
 .nav__button {
     font-size: 2.8rem;
     font-weight: 500;
@@ -89,6 +111,12 @@ body {
     max-width: 24.9rem;
     justify-self: right;
     align-self: center;
+}
+
+.nav__button:hover {
+    background-color: #00A651;
+    transition: all 0.2s;
+    cursor: pointer;
 }
 
 #menu {
@@ -114,6 +142,12 @@ body {
     font-size: 3.4rem;
     font-weight: 500;
     color: #FFFFFF;
+}
+
+.button-primary:hover {
+    background-color: #00A651;
+    transition: all 0.2s;
+    cursor: pointer;
 }
 
 .content-intro {
@@ -520,8 +554,8 @@ hr {
 .tns-ovh {
     grid-column: 1;
     grid-row: 1;
-    padding-left: 17.6rem;
-    padding-right: 17.6rem;
+    margin-left: 9.16666667vw;
+    margin-right: 9.16666667vw;
 }
   
 [data-controls] {

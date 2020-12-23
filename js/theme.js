@@ -1,3 +1,5 @@
+AOS.init();
+
 var slider = tns({
   container: '.team-members-list',
   items: 1,

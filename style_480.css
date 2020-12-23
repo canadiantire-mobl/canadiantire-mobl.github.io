@@ -241,11 +241,6 @@
         border-right: 3rem solid #666666;
     }
 
-    .tns-ovh {
-        padding-left: 3.5rem;
-        padding-right: 3.5rem;
-    }
-
     [data-controls="prev"] {
         width: 3rem;
     }
