@@ -38,7 +38,6 @@
     .responsive {
         display: grid !important;
         grid-template-columns: 1fr 1fr;
-        z-index: 1;
     }
     
     #menu ul
