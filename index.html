@@ -12,27 +12,29 @@
     <link rel="stylesheet" href="style_480.css">
 </head>
 <body>
-    <div class="nav">
-        <img class="nav__logo" src="public/CT_logo.png" />
-        <a class="nav__link left" href="#work">The Work</a>
-        <a class="nav__link left" href="#culture">Our Culture</a>
-        <a class="nav__link left" href="#team">Our Team</a>
-        <a class="nav__link left" href="#benefits">Your Benefits</a>
-        <button class="nav__button">View all jobs</button>
-        <div class="nav__hamburger" onclick="navOpenClose()">
-            <div class="nav__hamburger-line"></div>
-            <div class="nav__hamburger-line"></div>
-            <div class="nav__hamburger-line"></div>
+    <div class="nav-wrap">
+        <div class="nav">
+            <img class="nav__logo" src="public/CT_logo.png" />
+            <a class="nav__link left" href="#work">The Work</a>
+            <a class="nav__link left" href="#culture">Our Culture</a>
+            <a class="nav__link left" href="#team">Our Team</a>
+            <a class="nav__link left" href="#benefits">Your Benefits</a>
+            <button class="nav__button">View all jobs</button>
+            <div class="nav__hamburger" onclick="navOpenClose()">
+                <div class="nav__hamburger-line"></div>
+                <div class="nav__hamburger-line"></div>
+                <div class="nav__hamburger-line"></div>
+            </div>
         </div>
     </div>
     <div id="menu">
-    <ul>
-        <a href="#work"><li>The Work</li></a>
-        <a href="#culture"><li>Our Culture</li></a>
-        <a href="#team"><li>Our Team</li></a>
-        <a href="#benefits"><li>Your Benefits</li></a>
-    </ul>
-</div>
+        <ul>
+            <a href="#work"><li>The Work</li></a>
+            <a href="#culture"><li>Our Culture</li></a>
+            <a href="#team"><li>Our Team</li></a>
+            <a href="#benefits"><li>Your Benefits</li></a>
+        </ul>
+    </div>
     <div class="content-intro">
         <div class="content-intro__content">
             <div class="header-primary content-intro__header">Giving Canadians the tools they need.</div>
@@ -118,25 +120,28 @@
     <section class="community" id="culture">
         <div class="content-intro">
             <div class="content-intro__content">
-                <div class="header-primary">Join an Engaged Community</div>
+                <div class="header-primary community__header">Join an Engaged Community</div>
                 <div class="text-primary content-intro__text">We’re a tight-knit community of engineers, developers, people managers and leaders. We come from diverse backgrounds and bring perspectives from a variety of industries across the world to inform our journey to becoming the number one retail brand in Canada. We’re looking for people with different experiences to join our mission, and unlock a new level of performance.</div>
             </div>
             <img class="content-intro__img" src="public/digitalcommunity.png" />
         </div>
-        <div class="community__stats">
-            <div>
-                <div class="community__stats-percent">83%</div>
-                <div class="community__stats-percent-text">Of Canadian Tire employees Approve of their CEO</div>
-            </div>
-            <div>
-                <div class="community__stats-review">“Great Company Culture. Amazing New graduate program.”</div>
+        <div class="community__stats-wrap">
+            <div class="community__stats">
                 <div>
-                    <div class="community__stats-review-employee">Current Employee</div>
-                    <div class="community__stats-review-location">Cyber Security Analyst in Toronto, ON</div>
+                    <div class="community__stats-percent">83%</div>
+                    <div class="community__stats-percent-text">Of Canadian Tire employees Approve of their CEO</div>
+                </div>
+                <div>
+                    <div class="community__stats-review">“Great Company Culture. Amazing New graduate program.”</div>
+                    <div>
+                        <div class="community__stats-review-employee">Current Employee</div>
+                        <div class="community__stats-review-location">Cyber Security Analyst in Toronto, ON</div>
+                    </div>
                 </div>
             </div>
+            <div class="community__source">Sourced from: Glassdoor.com</div>
         </div>
-        <div class="community__source">Sourced from: Glassdoor.com</div>
+
         <div class="header-primary meet-the-team-header" id="team">Meet the team</div>
         <div class="meet-the-team">
             <ul class="team-members-list">
@@ -223,13 +228,6 @@
     <!-- Section: What More Could You Ask For? -->
     <section class="additional-features" id="benefits">
         <div class="header-primary additional-features__header">What More Could You Ask For?</div>
-        <div class="additional-features__intro">
-            <img class="additional-features__img" src="public/remote.svg" />
-            <div class="content-intro__content">
-                <div class="header-primary">Work remotely, together.</div>
-                <div class="text-primary additional-features__text">Our flexible working processes allows our employees to have ultimate mobility while smashing targets and past projections.</div>
-            </div>
-        </div>
         <div class="additional-features__icons">
             <img src="public/work.png" class="additional-features__icons-img" />
             <img src="public/learning.png" class="additional-features__icons-img" />
@@ -320,11 +318,13 @@
 
     <!-- Section: Next Generation Talent -->
     <section class="ngt">
-        <img src="public/ngt.png" class="ngt-img" />
-        <div class="ngt-content">
-            <div class="ngt-header">Our Next Generation Talent Program</div>
-            <div class="ngt-text">Canadian Tire is focused on developing talent and offering a diverse range of entry- level roles. Graduates will be placed at the forefront of Canadian Tire’s security evolution, positioning them as our next generation of Mobile App developers.</div>
-            <button class="button-primary ngt-button">View all jobs</button>
+        <div class="ngt-grid">
+            <img src="public/ngt.png" class="ngt-img" />
+            <div class="ngt-content">
+                <div class="header-primary">Our Next Generation Talent Program</div>
+                <div class="text-primary">Canadian Tire is focused on developing talent and offering a diverse range of entry- level roles. Graduates will be placed at the forefront of Canadian Tire’s security evolution, positioning them as our next generation of Mobile App developers.</div>
+                <button class="button-primary ngt-button">View all jobs</button>
+            </div>
         </div>
     </section>
 

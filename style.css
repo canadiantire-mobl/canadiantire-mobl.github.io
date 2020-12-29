@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: 'Lato';
+    font-family: 'LatoMedium';
     src: url('public/Lato/LatoLatin-Medium.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-    font-family: 'Lato';
+    font-family: 'LatoBold';
     src: url('public/Lato/LatoLatin-Bold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-    font-family: 'Lato';
+    font-family: 'LatoItalic';
     src: url('public/Lato/LatoLatin-Italic.woff2') format('woff2');
     font-weight: normal;
     font-style: italic;
@@ -31,7 +31,7 @@
 }
 
 @font-face {
-    font-family: 'Lato';
+    font-family: 'LatoLight';
     src: url('public/Lato/LatoLatin-Light.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
@@ -52,29 +52,34 @@ body {
     font-family: 'Lato', sans-serif;
     color: #000000;
 }
-
-.nav {
-    height: 13.5rem;
+.nav-wrap{
     box-shadow: 0px 4px 6px #00000029;
+    height: 12rem;
+    width: 100%;
+}
+.nav {
     display: grid;
     grid-template-columns: min-content repeat(4, auto) 1fr;
     align-content: center;
     padding-right: 1.82291667vw;
     padding-left: 1.77083333vw;
+    max-width: 144rem;
+    margin: auto;
+    height: 12rem;
 }
 
 .nav__logo {
-    width: 9.5rem;
+    width: 7.718rem;
     margin-right: 2.8125vw;
 }
 
 .nav__link {
-    font-size: 2.8rem;
+    font-size: 2.2rem;
     text-decoration: none;
     color: #000000;
     align-self: center;
     font-weight: 500;
-    margin-right: 4.16666667vw;
+    margin-right: 3.75vw;
 }
 
 a.left
@@ -100,15 +105,15 @@ a.left:hover:before {
 }
 
 .nav__button {
-    font-size: 2.8rem;
+    font-size: 2.2rem;
     font-weight: 500;
     color: #FFFFFF;
     background: #00792B;
     border: 1px solid #707070;
     border-radius: 1.4rem;
-    height: 5.4rem;
+    height: 5.0rem;
     width: 100%;
-    max-width: 24.9rem;
+    max-width: 20rem;
     justify-self: right;
     align-self: center;
 }
@@ -124,22 +129,23 @@ a.left:hover:before {
 }
 
 .header-primary {
-    font-size: 6rem;
+    font-size: 4.4rem;
     font-weight: bold;
 }
 
 .text-primary {
-    font-size: 2.8rem;
+    font-size: 2.2rem;
     font-weight: 500;
+    line-height: 1.5em;
 }
 
 .button-primary {
-    width: 29.8rem;
-    height: 6.4rem;
+    width: 20rem;
+    height: 5rem;
     background: #00792B;
     border: 1px solid #707070;
     border-radius: 1.4rem;
-    font-size: 3.4rem;
+    font-size: 2.2rem;
     font-weight: 500;
     color: #FFFFFF;
 }
@@ -153,28 +159,30 @@ a.left:hover:before {
 .content-intro {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    place-items: center;
+    place-items: start center;
     padding-top: 8rem;
     padding-bottom: 8.7rem;
-    gap: 1rem;
-    margin-left: 2.3rem;
-    margin-right: 2.3rem;
+    margin: 0 auto;
+    max-width: 144rem;
 }
 
-.content-intro__text {
-    padding-top: 5rem;
-    padding-bottom: 6rem;
-    max-width: 69rem;
+.content-intro__content {
+    padding: 0 6.7rem 0 10rem;
 }
 
 .content-intro__header {
-    max-width: 53rem;
+    max-width: 40rem;
+    margin-bottom: 3.8rem;
 }
 
+.content-intro__text {
+    margin-bottom: 6rem;
+    max-width: 69rem;
+}
 
 .content-intro__img {
     width: 100%;
-    max-width: 76.3rem;
+    max-width: 62rem;
 }
 
 /*
@@ -193,13 +201,17 @@ a.left:hover:before {
     border: 1px solid #b8b8b8;
     display: grid;
     place-items: center;
-    font-size: 2.2rem;
+    font-size: 2.0rem;
     margin: auto;
 }
 
 .small-text {
     width: 86.09375vw;
-    max-width: 165.3rem;
+    max-width: 144rem;
+    line-height: 1.4em;
+    padding: 0 10rem;
+    margin-top: 3.3rem;
+    margin-bottom: 3.3rem;
 }
 
 .features {
@@ -209,7 +221,7 @@ a.left:hover:before {
     grid-template-columns: auto;
     place-items: center;
     padding-top: 10rem;
-    padding-bottom: 6rem;
+    padding-bottom: 10rem;
     padding-left: 2.3rem;
     padding-right: 2.3rem;
 }
@@ -220,16 +232,16 @@ a.left:hover:before {
 }
 
 .features__text-first {
-    max-width: 102.8rem;
+    max-width: 80.8rem;
     text-align: center;
 }
 
 hr {
+    border: 1px solid #fff;
     color: #FFFFFF;
     width: 100%;
-    max-width: 172rem;
-    margin-top: 6.95rem;
-    margin-bottom: 7.05rem;
+    max-width: 135rem;
+    margin: 10rem 0;
 }
 
 .features__header-second {
@@ -241,7 +253,7 @@ hr {
 
 .features__text-second {
     width: 100%;
-    max-width: 117.4rem;
+    max-width: 92.9rem;
     text-align: center;
     padding-bottom: 2.8rem;
 }
@@ -266,12 +278,12 @@ hr {
 }
 
 .features__stats-header {
-    font-size: 4.6rem;
+    font-size: 3.2rem;
     font-weight: bold;
 }
 
 .features__stats-text-text {
-    font-size: 2.8rem;
+    font-size: 2.2rem;
     font-weight: 500;
 }
 
@@ -292,7 +304,7 @@ hr {
 
 .featues__bubble-text {
     width: 100%;
-    max-width: 44.3rem;
+    max-width: 36.2rem;
     align-self: start;
 }
 
@@ -307,11 +319,12 @@ hr {
     color: #FFFFFF;
     text-align: center;
     width: 100%;
-    max-width: 172rem;
+    max-width: 144rem;
     height: 30rem;
     border-radius: 14px;
     padding: 0px;
     border: #ffffff solid 2px;
+    margin-bottom: 60px;
 }
 .bubble:after {
     content: '';
@@ -320,11 +333,10 @@ hr {
     width: 0;
     z-index: 1;
     border-style: solid;
-    border-width: 0 40px 20px 0;
+    border-width: 0 80px 56px 0;
     border-color: transparent #000000 transparent transparent;
-    bottom: -20px;
-    left: 78%;
-    margin-left: -20px;
+    bottom: -56px;
+    left: 85%;
 }
 .bubble:before {
     content: '';
@@ -332,25 +344,23 @@ hr {
     width: 0;
     z-index: 0;
     border-style: solid;
-    border-width: 0 42px 22px 0;
+    border-width: 0 82px 58px 0;
     border-color: transparent #ffffff transparent transparent;
-    bottom: -24px;
-    left: 78%;
-    margin-left: -20px;
+    bottom: -60px;
+    left: 85%;
     display: block;
 }
 
 .video {
     width: 100%;
-    max-width: 80.1rem;
-    max-height: 40.3rem;
+    max-width: 62.2rem;
+    max-height: 31.3rem;
     margin-top: 4.833rem;
-    margin-bottom: 5.1rem;
+    margin-bottom: 8.7rem;
 }
 
 .app-text {
-    font-size: 2.8rem;
-    font-weight: bold;
+    font-size: 2.2rem;
     padding-bottom: 3.1rem;
 }
 
@@ -371,6 +381,15 @@ hr {
     background: transparent linear-gradient(180deg, #FFFFFF 0%, #E8E8E8 100%) 0% 0% no-repeat padding-box;
 }
 
+.community__header {
+    margin-bottom: 3.8rem;
+}
+
+.community__stats-wrap {
+    margin: auto;
+    max-width: 144rem;
+    padding: 0 10rem;
+}
 .community__stats {
     background: #00792B;
     border: 1px solid #707070;
@@ -385,7 +404,7 @@ hr {
     padding-top: 2.5rem;
     padding-bottom: 3.5rem;
     width: calc(100vw - 4.6rem);
-    max-width: 172rem;
+    max-width: 124rem;
 }
 
 .community__stats-percent {
@@ -396,7 +415,7 @@ hr {
 }
 
 .community__stats-percent-text {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     font-weight: 500;
     width: 100%;
     max-width: 31.4rem;
@@ -407,25 +426,23 @@ hr {
     font-weight: 300;
     width: 100%;
     max-width: 50.4rem;
-    padding-bottom: 2.5rem; 
+    padding-bottom: 2.5rem;
 }
 
 .community__stats-review-employee {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     font-weight: 500;
 }
 
 .community__stats-review-location {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     font-style: italic;
 }
 
 .community__source {
     font-size: 1.8rem;
-    font-weight: 500;
+    font-family: 'LatoLight';
     color: #666666;
-    width: calc(100vw - 4.6rem);
-    max-width: 172rem;
     display: grid;
     justify-items: end;
     margin: auto;
@@ -442,10 +459,11 @@ hr {
 }
 
 .meet-the-team {
+    margin: auto;
+    max-width: 144rem;
     width: 100%;
     padding-bottom: 8rem;
-    padding-left: 5.4rem;
-    padding-right: 5.4rem;
+
 }
 .team-members-list {
     padding-bottom: 4rem;
@@ -473,28 +491,30 @@ hr {
     border-radius: 50%;
     width: 12.7083333vw;
     height: 12.7083333vw;
-    max-width: 244px;
+    max-width: 202px;
+    max-height: 202px;
     background-color: grey;
 }
 
 .member__content-name {
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     font-weight: bold;
 }
 
 .member__content-role-primary {
-    font-size: 2.4rem;
+    font-size: 2.0rem;
     font-weight: 500;
 }
 
 .member__content-role-secondary {
-    font-size: 2.4rem;
+    font-size: 2.0rem;
     font-style: italic;
 }
 
 .member__content-favourites {
-    font-size: 2.4rem;
-    padding-top: 2.7rem;
+    font-size: 2.0rem;
+    line-height: 1.2em;
+    padding-top: 3.2rem;
     padding-bottom: 2.4rem;
 }
 .member__content-favourites-bold {
@@ -502,8 +522,9 @@ hr {
 }
 
 .member__content-quote {
-    font-size: 2.8rem;
+    font-size: 2.2rem;
     font-weight: 300;
+    line-height: 1.45em;
 }
 
 .tns-nav {
@@ -525,19 +546,19 @@ hr {
 }
 
 .arrow-right {
-    width: 0; 
-    height: 0; 
-    border-top: 5rem solid transparent;
-    border-bottom: 5rem solid transparent;
-    border-left: 6rem solid #666666;
+    width: 0;
+    height: 0;
+    border-top: 3rem solid transparent;
+    border-bottom: 3rem solid transparent;
+    border-left: 5rem solid #666666;
 }
 
 .arrow-left {
-    width: 0; 
-    height: 0; 
-    border-top: 5rem solid transparent;
-    border-bottom: 5rem solid transparent;
-    border-right: 6rem solid #666666;
+    width: 0;
+    height: 0;
+    border-top: 3rem solid transparent;
+    border-bottom: 3rem solid transparent;
+    border-right: 5rem solid #666666;
 }
 
 .tns-outer {
@@ -554,10 +575,10 @@ hr {
 .tns-ovh {
     grid-column: 1;
     grid-row: 1;
-    margin-left: 9.16666667vw;
-    margin-right: 9.16666667vw;
+    margin-left: 5.16666667vw;
+    margin-right: 5.16666667vw;
 }
-  
+
 [data-controls] {
     border: 0;
     padding: 0;
@@ -593,8 +614,8 @@ hr {
 
 .additional-features__header {
     text-align: center;
-    padding-top: 10rem;
-    padding-bottom: 10.7rem;
+    padding-top: 8.2rem;
+    padding-bottom: 14.6rem;
 }
 
 .additional-features__text {
@@ -613,6 +634,8 @@ hr {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
+    max-width: 144rem;
+    margin: auto;
 }
 
 .additional-features__icons-mobile {
@@ -620,30 +643,33 @@ hr {
 }
 
 .additional-features__icons-img {
-    width: 13.4rem;
+    width: 10.6rem;
     align-self: center;
 }
 
 .additional-features__icons-header {
-    font-size: 3.8rem;
+    font-size: 2.8rem;
     font-weight: bold;
     text-align: center;
 }
 
 .additional-features__icons-text {
-    font-size: 2.8rem;
+    font-size: 2.2rem;
     font-weight: 500;
     text-align: center;
     width: 100%;
-    max-width: 47.8rem;
+    max-width: 38.0rem;
     padding-bottom: 8.5rem;
 }
 
 /*
-    What More Could You Ask For?
+    Job Postings
 */
 .job-postings {
-    background: #000000;
+    background: url('public/hiring_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     display: grid;
     justify-content: center;
     padding-top: 10rem;
@@ -659,13 +685,14 @@ hr {
     grid-template-columns: minmax(auto, 150rem);
     display: grid;
     justify-items: center;
-    padding-top: 4.7rem; 
-    padding-bottom: 8.7rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    max-width: 60.5rem;
 }
 
 .job-postings__content {
-    padding-top: 6.9rem;
-    padding-bottom: 10.9rem;
+    padding-top: 6.0rem;
+    padding-bottom: 5.7rem;
     display: grid;
     grid-template-columns: auto;
     gap: 4.5rem;
@@ -673,22 +700,30 @@ hr {
 }
 
 .job-postings__content-header {
-    font-size: 5rem;
+    font-size: 2.8rem;
     font-weight: 500;
 }
 
 .job-postings__content-date {
-    font-size: 3.1rem;
+    font-size: 2.2rem;
     font-weight: 500;
 }
 
+/*
+    Next Generation Talent
+*/
+
 .ngt {
     background: #f3f3f3;
+    padding: 6.5rem 10rem;
+}
+
+.ngt-grid {
     display: grid;
-    grid-template-columns: auto 1fr;
-    margin: auto;
     gap: 6.5rem;
-    padding: 6.5rem 10rem 6.5rem 10rem;
+    grid-template-columns: auto 1fr;
+    max-width: 144rem;
+    margin: auto;
 }
 
 .ngt-img {
@@ -724,12 +759,13 @@ hr {
 }
 
 .contact-header {
-    font-size: 5.2rem;
+    font-size: 4.2rem;
     font-weight: bold;
+    margin-bottom: 2.2rem;
 }
 
 .contact-text {
-    font-size: 3.6rem;
+    font-size: 2.2rem;
     font-weight: 500;
     text-align: center;
     padding-bottom: 5.7rem;
@@ -743,14 +779,14 @@ hr {
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
-    gap: 2.9rem;
+    gap: 2.1rem;
 }
 
 .contact-img {
-    width: 9.1rem;
+    width: 4.9rem;
 }
 
 .contact-name {
-    font-size: 4rem;
+    font-size: 3.2rem;
     font-weight: bold;
 }
