@@ -4,10 +4,13 @@ var slider = tns({
   container: '.team-members-list',
   items: 1,
   responsive: {
-    1760: {
+    1080: {
       items: 2,
-      gutter: 40,
+      gutter: 20,
     },
+    1450: {
+      gutter: 67
+    }
   },
   autoplay: false,
   arrowKeys: true,

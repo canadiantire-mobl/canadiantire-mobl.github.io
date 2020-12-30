@@ -35,7 +35,7 @@
         grid-column: 1;
     }
 
-    .ngt {
+    .ngt-grid {
         grid-template-columns: auto;
         justify-items: center;
     }
@@ -44,6 +44,19 @@
         gap: 6.4rem;
     }
 
+    .ngt-header {
+        align-self: start;
+        margin-bottom: 3.6rem;
+    }
+
+    .ngt-text {
+        margin-bottom: 4rem;
+        line-height: 2em;
+    }
+
+    .meet-the-team {
+        max-width: 102rem;
+    }
     .arrow-right {
         border-top: 3rem solid transparent;
         border-bottom: 3rem solid transparent;
@@ -64,7 +77,7 @@
     [data-controls="prev"] {
         width: 3rem;
     }
-    
+
     [data-controls="next"] {
         width: 3rem;
     }

@@ -1,7 +1,8 @@
 @media screen and (max-width: 750px) {
     .nav {
         grid-template-columns: min-content 1fr min-content;
-        padding-right: 2.1rem;
+        padding-right: 3.4rem;
+        padding-left: 3.4rem;
     }
 
     .nav__logo {
@@ -19,15 +20,15 @@
 
     .nav__hamburger {
         display: grid;
-        gap: 1.2rem;
+        gap: 1.8rem;
         align-self: center;
         cursor: pointer;
     }
 
     .nav__hamburger-line {
         width: 6.5rem;
-        height: 1rem;
-        border: 1px solid #707070;
+        height: 0.4rem;
+        background-color: #666;
     }
     #menu
     {
@@ -39,21 +40,20 @@
         display: grid !important;
         grid-template-columns: 1fr 1fr;
     }
-    
+
     #menu ul
     {
         background: #ffffff;
         grid-column: 2;
-    list-style-type: none;
-    box-shadow: 0px 4px 6px #00000029;
-      font-size: 2.8rem;
-      margin: 0;
-      text-align: right;
-      display: grid;
-      padding: 0;
-      
-    
+        list-style-type: none;
+        box-shadow: 0px 4px 6px #00000029;
+        font-size: 2.8rem;
+        margin: 0;
+        text-align: right;
+        display: grid;
+        padding: 0;
     }
+
     #menu ul a {
         text-decoration: none;
         color: #000000;
@@ -69,18 +69,31 @@
     }
 
     .header-primary {
-        font-size: 6rem;
+        font-size: 3.8rem;
     }
 
     .text-primary {
-        font-size: 2.8rem;
+        font-size: 2.2rem;
+        line-height: 3.2rem;
     }
 
     .content-intro {
         grid-template-columns: 1fr;
-        gap: 5.6rem;
+        gap: 3.4rem;
         margin-left: 4rem;
         margin-right: 4rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .content-intro__img {
+        grid-row: 1;
+        max-width: 100%;
+    }
+
+    .small-text {
+        padding-left: 5.8rem;
+        padding-right: 5.8rem;
     }
 
     .features {
@@ -91,14 +104,16 @@
 
     .features__header-first {
         max-width: 46.8rem;
+        font-size: 6rem;
     }
 
     .features__text-first {
-        max-width: 63.2rem;
+        max-width: 62.3rem;
     }
 
     .features__header-second {
         max-width: 71rem;
+        font-size: 6rem;
     }
 
     .features__text-second {
@@ -108,7 +123,7 @@
     .features__stats {
         grid-template-columns: 1fr 1fr;
     }
-    
+
     .features__stats-img {
         width: 100%;
         max-width: 32.6rem;
@@ -121,7 +136,7 @@
         gap: 3.1rem;
         padding-left: 0;
     }
-    
+
     .features__stats-header {
         font-size: 4.1rem;
     }
@@ -169,20 +184,41 @@
     .community .content-intro__content {
         text-align: center;
     }
+    .community .content-intro__text {
+        font-size: 2.8rem;
+        line-height: 4.8rem;
+        margin-bottom: 0;
+    }
+
+    .community__header {
+        font-size: 6rem;
+    }
 
     .community__stats {
         grid-template-columns: 1fr;
         gap: 7.5rem;
-        width: calc(100vw - 6.6rem);
     }
 
-    .community__source {
-        width: calc(100vw - 6.6rem);
+    .community__stats-percent-text {
+        font-size: 2.4rem;
     }
 
     .meet-the-team {
-        padding-left: 1.7rem;
-        padding-right: 1.7rem;
+        /* padding-left: 1.7rem;
+        padding-right: 1.7rem; */
+        max-width: 70rem;
+    }
+    .meet-the-team-header {
+        font-size: 6rem;
+        padding-bottom: 5rem;
+    }
+    .tns-ovh {
+        max-width: 59rem;
+    }
+
+    .member__content-img {
+        width: 26vw;
+        height: 26vw;
     }
 
     .member-stats {
@@ -192,19 +228,19 @@
     .member__content {
         padding: 3rem 3rem;
     }
-    
+
     .member__content-name {
         font-size: 2.7rem;
     }
-    
+
     .member__content-role-primary {
         font-size: 2rem;
     }
-    
+
     .member__content-role-secondary {
         font-size: 2rem;
     }
-    
+
     .member__content-favourites {
         font-size: 2rem;
     }
@@ -224,7 +260,7 @@
     [data-controls="prev"] {
         width: 3rem;
     }
-    
+
     [data-controls="next"] {
         width: 3rem;
     }
@@ -241,12 +277,12 @@
         padding-left: 0;
         padding-right: 0;
     }
-    
+
     .additional-features__text {
         max-width: 69rem;
         font-size: 3.6rem;
     }
-    
+
     .additional-features__img {
         width: 100%;
         max-width: 37.8rem;
@@ -256,22 +292,22 @@
     .additional-features__icons {
         display: none;
     }
-    
+
     .additional-features__icons-mobile {
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-items: center;
     }
-    
+
     .additional-features__icons-img {
         max-width: 13.4rem;
         align-self: center;
     }
-    
+
     .additional-features__icons-header {
         font-size: 2.8rem;
     }
-    
+
     .additional-features__icons-text {
         font-size: 2.2rem;
         max-width: 32rem;
@@ -283,12 +319,12 @@
         padding-left: 3.7rem;
         padding-right: 3.7rem;
     }
-    
+
     .job-postings__container {
-        padding-top: 4.7rem; 
+        padding-top: 4.7rem;
         padding-bottom: 5.8rem;
     }
-    
+
     .job-postings__content {
         padding-top: 4rem;
         padding-bottom: 8rem;
@@ -296,33 +332,40 @@
         padding-right: 3.7rem;
         gap: 4rem;
     }
-    
+
     .job-postings__content-header {
         font-size: 4rem;
     }
-    
+
     .job-postings__content-date {
         font-size: 2.1rem;
     }
 
     .ngt {
+        padding: 0;
+    }
+    .ngt-grid {
         grid-template-columns: auto;
         gap: 6.5rem;
-        padding: 4.5rem 3.7rem 6.4rem 3.7rem;
+        padding: 4.5rem 3.8rem;
     }
-    
+
     .ngt-img {
         max-width: 67.5rem;
     }
-    
+
     .ngt-content {
         text-align: center;
         justify-items: center;
-        gap: 6.4rem;
+        gap: 0;
     }
-    
+
     .ngt-header {
-        max-width: 50rem;
+        font-size: 5.8rem;
+    }
+
+    .contact-header {
+        font-size: 5.2rem;
     }
 
     .contact-text {
@@ -335,5 +378,17 @@
         font-weight: 500;
         text-align: center;
         padding-bottom: 5.7rem;
+    }
+
+    .contact-person {
+        gap: 2.9rem;
+    }
+
+    .contact-img {
+        width: 9.1rem;
+    }
+
+    .contact-name {
+        font-size: 4rem;
     }
 }

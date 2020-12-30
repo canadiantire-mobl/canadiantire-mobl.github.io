@@ -1,0 +1,73 @@
+@media screen and (max-width: 1440px) {
+    .content-intro,
+    .small-text,
+    .bubble,
+    .community__stats-wrap,
+    .meet-the-team,
+    .additional-features__icons,
+    .ngt-grid {
+        max-width: 110rem;
+    }
+    hr {
+        max-width: 95.8rem;
+    }
+
+    .header-primary {
+        font-size: 3.8rem;
+    }
+    .text-primary {
+        font-size: 1.8rem;
+        line-height: 1.7em;
+    }
+
+    .features__bubble {
+        column-gap: 3.3rem;
+    }
+
+    .meet-the-team {
+        max-width: 108rem;
+    }
+    .member__content {
+        padding: 4rem;
+    }
+    .ngt-grid {
+        column-gap: 5.7rem;
+    }
+
+    .ngt-header {
+        margin-bottom: 3.6rem;
+    }
+
+    .ngt-text {
+        margin-bottom: 5rem;
+        line-height: 2em;
+        font-size: 1.8rem;
+    }
+
+    .arrow-right {
+        border-top: 3rem solid transparent;
+        border-bottom: 3rem solid transparent;
+        border-left: 4rem solid #666666;
+    }
+
+    .arrow-left {
+        border-top: 3rem solid transparent;
+        border-bottom: 3rem solid transparent;
+        border-right: 4rem solid #666666;
+    }
+
+    .tns-ovh {
+        padding-left: 0;
+        padding-right: 0;
+        margin: auto;
+        max-width: 92rem;
+    }
+
+    [data-controls="prev"] {
+        width: 3rem;
+    }
+
+    [data-controls="next"] {
+        width: 3rem;
+    }
+}

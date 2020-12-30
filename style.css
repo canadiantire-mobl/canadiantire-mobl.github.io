@@ -81,6 +81,7 @@ body {
     align-self: center;
     font-weight: 500;
     margin-right: 3.75vw;
+    font-family: 'LatoMedium';
 }
 
 a.left
@@ -161,18 +162,14 @@ a.left:hover:before {
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: start center;
-    padding-top: 8rem;
-    padding-bottom: 8.7rem;
     margin: 0 auto;
     max-width: 144rem;
-}
-
-.content-intro__content {
-    padding: 0 6.7rem 0 10rem;
+    padding: 8rem 10rem;
+    column-gap: 6.7rem;
 }
 
 .content-intro__header {
-    max-width: 40rem;
+    max-width: 40.5rem;
     margin-bottom: 3.8rem;
 }
 
@@ -207,7 +204,6 @@ a.left:hover:before {
 }
 
 .small-text {
-    width: 86.09375vw;
     max-width: 144rem;
     line-height: 1.4em;
     padding: 0 10rem;
@@ -230,10 +226,11 @@ a.left:hover:before {
 .features__header-first {
     text-align: center;
     padding-bottom: 5rem;
+    max-width: 71rem;
 }
 
 .features__text-first {
-    max-width: 80.8rem;
+    max-width: 88rem;
     text-align: center;
 }
 
@@ -321,10 +318,10 @@ hr {
     text-align: center;
     width: 100%;
     max-width: 144rem;
-    height: 30rem;
+    height: 22.7rem;
     border-radius: 14px;
     padding: 0px;
-    border: #ffffff solid 2px;
+    border: #ffffff solid 1px;
     margin-bottom: 60px;
 }
 .bubble:after {
@@ -334,7 +331,7 @@ hr {
     width: 0;
     z-index: 1;
     border-style: solid;
-    border-width: 0 80px 56px 0;
+    border-width: 0 80px 57px 0;
     border-color: transparent #000000 transparent transparent;
     bottom: -56px;
     left: 85%;
@@ -345,9 +342,9 @@ hr {
     width: 0;
     z-index: 0;
     border-style: solid;
-    border-width: 0 82px 58px 0;
+    border-width: 0 81px 58px 0;
     border-color: transparent #ffffff transparent transparent;
-    bottom: -60px;
+    bottom: -58px;
     left: 85%;
     display: block;
 }
@@ -402,9 +399,7 @@ hr {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
     margin: auto;
-    padding-top: 2.5rem;
-    padding-bottom: 3.5rem;
-    width: calc(100vw - 4.6rem);
+    padding: 3.5rem;
     max-width: 124rem;
 }
 
@@ -524,7 +519,7 @@ hr {
 
 .member__content-quote {
     font-size: 2.2rem;
-    font-weight: 300;
+    font-family: 'LatoLight';
     line-height: 1.45em;
 }
 
@@ -716,15 +711,16 @@ hr {
 
 .ngt {
     background: #f3f3f3;
-    padding: 6.5rem 10rem;
+    padding: 0 10rem;
 }
 
 .ngt-grid {
+    column-gap: 6.5rem;
     display: grid;
-    gap: 6.5rem;
-    grid-template-columns: auto 1fr;
-    max-width: 144rem;
+    grid-template-columns: 1fr 1fr;
     margin: auto;
+    max-width: 144rem;
+    padding: 8rem 10rem;
 }
 
 .ngt-img {
@@ -738,14 +734,13 @@ hr {
 }
 
 .ngt-header {
-    font-size: 5.2rem;
-    font-weight: bold;
     align-self: start;
+    margin-bottom: 2rem;
 }
 
 .ngt-text {
-    font-size: 2.8rem;
-    font-weight: 500;
+    margin-bottom: 5rem;
+
 }
 
 .ngt-button {
