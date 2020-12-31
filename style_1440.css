@@ -26,6 +26,8 @@
 
     .meet-the-team {
         max-width: 108rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     .member__content {
         padding: 4rem;
@@ -60,7 +62,7 @@
         padding-left: 0;
         padding-right: 0;
         margin: auto;
-        max-width: 92rem;
+        max-width: 80%;
     }
 
     [data-controls="prev"] {

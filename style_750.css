@@ -212,9 +212,6 @@
         font-size: 6rem;
         padding-bottom: 5rem;
     }
-    .tns-ovh {
-        max-width: 59rem;
-    }
 
     .member__content-img {
         width: 26vw;
@@ -391,4 +388,6 @@
     .contact-name {
         font-size: 4rem;
     }
+
+
 }

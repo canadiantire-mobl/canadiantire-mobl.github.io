@@ -591,6 +591,19 @@ hr {
     justify-self: end;
 }
 
+.tns-outer {
+    position: relative;
+}
+.tns-controls {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+
+}
+
+
 /*
     What More Could You Ask For?
 */
