@@ -65,7 +65,7 @@
     .content-intro {
         gap: 2.8rem;
         margin: 0;
-        padding-top: 6.6rem;
+        padding-top: 4rem;
         padding-bottom: 6.6rem;
         padding-left: 2.3rem;
         padding-right: 2.3rem;
@@ -82,7 +82,17 @@
     .covid-response {
         font-size: 2rem;
     }
-
+    .small-text {
+        padding-left: 2.3rem;
+        padding-right: 2.3rem;
+    }
+    .additional-features__header {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    .additional-features__icons-mobile {
+        column-gap: 2rem;
+    }
     .features {
         padding-left: 0;
         padding-right: 0;
@@ -158,6 +168,10 @@
         height: 4rem;
     }
 
+    .community .content-intro__text {
+        font-size: 2rem;
+    }
+
     .community .content-intro__img {
         grid-row: 2;
     }
@@ -166,8 +180,12 @@
         text-align: left;
     }
 
+    .community__stats-wrap {
+        padding-left: 2.3rem;
+        padding-right: 2.3rem;
+    }
+
     .community__stats {
-        margin-top: 4.8rem;
         gap: 3.2rem;
         padding: 1rem;
     }
