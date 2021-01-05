@@ -29,6 +29,7 @@
         width: 6.5rem;
         height: 0.4rem;
         background-color: #666;
+        border-radius: 8px;
     }
     #menu
     {
@@ -294,6 +295,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-items: center;
+        column-gap: 3rem;
     }
 
     .additional-features__icons-img {
