@@ -49,17 +49,17 @@
     }
 
     .header-primary {
-        font-size: 2.8rem;
+        font-size: 3rem;
     }
 
     .text-primary {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     .button-primary {
-        width: 20rem;
-        height: 5rem;
-        font-size: 2.2rem;
+        width: 11rem;
+        height: 3rem;
+        font-size: 1.4rem;
     }
 
     .content-intro {
@@ -80,7 +80,7 @@
     }
 
     .covid-response {
-        font-size: 2rem;
+        font-size: 1.2rem;
     }
     .small-text {
         padding-left: 2.3rem;
@@ -94,33 +94,28 @@
         column-gap: 2rem;
     }
     .features {
-        padding-left: 0;
-        padding-right: 0;
-        padding-top: 2.5rem;
-        padding-bottom: 2.5rem;
+        padding: 2rem;
         background: transparent radial-gradient(30% 10% at 27% 47%, #00000099 0%, #000 100%) 0% 0% no-repeat padding-box;
     }
 
     .features__header-first {
-        max-width: 21.9rem;
-        padding-bottom: 1.8rem;
+        max-width: 26rem;
+        padding-bottom: 1em;
+        padding-top: 1em;
     }
 
     .features__text-first {
-        padding-left: 2.3rem;
-        padding-right: 2.3rem;
+        padding-bottom: 2em;
     }
 
     hr {
         margin-top: 1.8rem;
         margin-bottom: 1.8rem;
-        width: calc(100vw - 4.6rem);
     }
 
     .features__header-second {
-        padding-bottom: 1.8rem;
-        padding-left: 2.3rem;
-        padding-right: 2.3rem;
+        padding-bottom: 1em;
+        padding-top: 1em;
     }
 
     .features__text-second {
@@ -169,7 +164,8 @@
     }
 
     .community .content-intro__text {
-        font-size: 2rem;
+        font-size: 1.6rem;
+        line-height: 1.45em;
     }
 
     .community .content-intro__img {
@@ -220,10 +216,15 @@
     .meet-the-team {
         padding-left: 0.5rem;
         padding-right: 0.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .team-members-list {
+        padding-bottom: 0;
     }
 
     .member__content {
-        padding: 1rem 1rem;
+        padding: 2rem;
     }
 
     .member-stats {
@@ -295,8 +296,9 @@
         padding-bottom: 5rem;
     }
     .additional-features__icons-img {
-        width: 100%;
+        width: auto;
         max-width: 12.1rem;
+        max-height: 10rem;
     }
 
     .additional-features__icons-header {
@@ -336,29 +338,22 @@
     }
 
     .ngt-grid {
-        gap: 6.4rem;
-        padding: 6rem 0 1.8rem 0;
-    }
-
-    .ngt-img {
-        grid-row-start: 2;
+        gap: 3.7rem;
+        padding: 2rem;
     }
 
     .ngt-content {
-        text-align: left;
+        text-align: center;
         justify-items: left;
-        gap: 1.7rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        gap: 0rem;
     }
 
     .ngt-header {
-        font-size: 2.8rem;
-        max-width: 27rem;
+        margin-bottom: 1em;
     }
 
     .ngt-text {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     .ngt-button {

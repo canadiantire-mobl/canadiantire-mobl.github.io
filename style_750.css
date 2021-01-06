@@ -75,7 +75,7 @@
 
     .text-primary {
         font-size: 2.2rem;
-        line-height: 3.2rem;
+        line-height: 1.45em;
     }
 
     .content-intro {
@@ -104,8 +104,7 @@
     }
 
     .features__header-first {
-        max-width: 46.8rem;
-        font-size: 6rem;
+        max-width: 37.4rem;
     }
 
     .features__text-first {
@@ -114,7 +113,6 @@
 
     .features__header-second {
         max-width: 71rem;
-        font-size: 6rem;
     }
 
     .features__text-second {
@@ -191,10 +189,6 @@
         margin-bottom: 0;
     }
 
-    .community__header {
-        font-size: 6rem;
-    }
-
     .community__stats {
         grid-template-columns: 1fr;
         gap: 7.5rem;
@@ -210,8 +204,7 @@
         max-width: 70rem;
     }
     .meet-the-team-header {
-        font-size: 6rem;
-        padding-bottom: 5rem;
+        padding-bottom: 1em;
     }
 
     .member__content-img {
@@ -224,7 +217,7 @@
     }
 
     .member__content {
-        padding: 3rem 3rem;
+        padding: 3rem;
     }
 
     .member__content-name {
@@ -261,6 +254,10 @@
 
     [data-controls="next"] {
         width: 3rem;
+    }
+    .tns-nav > [aria-controls] {
+        width: 1.4rem;
+        height: 1.4rem;
     }
 
     .additional-features {
@@ -357,10 +354,6 @@
         text-align: center;
         justify-items: center;
         gap: 0;
-    }
-
-    .ngt-header {
-        font-size: 5.8rem;
     }
 
     .contact-header {
