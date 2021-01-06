@@ -5,7 +5,7 @@
     .nav {
         height: 6.6rem;
         grid-template-columns: min-content 1fr min-content;
-        padding-right: 1.4rem;
+        padding-right: 1.8rem;
         padding-left: 1.8rem;
     }
 
@@ -26,7 +26,7 @@
 
     .nav__hamburger-line {
         width: 3.3rem;
-        height: 0.5rem;
+        height: 0.3rem;
     }
 
     .responsive {
@@ -35,7 +35,7 @@
 
     #menu ul
     {
-        grid-column: 1;
+      grid-column: 1;
       font-size: 1.7rem;
       text-align: center;
       padding: 0;
