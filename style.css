@@ -53,6 +53,9 @@ body {
     font-family: 'Lato', sans-serif;
     color: #000000;
 }
+a {
+    text-decoration: none;
+}
 .nav-wrap{
     box-shadow: 0px 4px 6px #00000029;
     height: 12rem;
@@ -118,6 +121,12 @@ a.left:hover:before {
     max-width: 20rem;
     justify-self: right;
     align-self: center;
+    -webkit-appearance: button;
+    appearance: button;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav__button:hover {
@@ -150,6 +159,12 @@ a.left:hover:before {
     font-size: 2.2rem;
     font-weight: 500;
     color: #FFFFFF;
+    -webkit-appearance: button;
+    appearance: button;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center
 }
 
 .button-primary:hover {
@@ -712,7 +727,6 @@ hr {
 }
 
 .job-postings__content a {
-    text-decoration: none;
     color: #000;
 }
 
@@ -802,4 +816,7 @@ hr {
 .contact-name {
     font-size: 3.2rem;
     font-weight: bold;
+}
+.contact-name a {
+    color: #000;
 }
