@@ -66,7 +66,7 @@
         gap: 2.8rem;
         margin: 0;
         padding-top: 4rem;
-        padding-bottom: 6.6rem;
+        padding-bottom: 3.2rem;
         padding-left: 2.3rem;
         padding-right: 2.3rem;
     }
@@ -89,6 +89,8 @@
     .additional-features__header {
         padding-top: 2em;
         padding-bottom: 2em;
+        padding-left: 1em;
+        padding-right: 1em;
     }
     .additional-features__icons-mobile {
         column-gap: 2rem;
@@ -163,13 +165,14 @@
         height: 4rem;
     }
 
+    .community__header {
+        text-align: center;
+        margin-bottom: 0;
+    }
     .community .content-intro__text {
         font-size: 1.6rem;
         line-height: 1.45em;
-    }
-
-    .community .content-intro__img {
-        grid-row: 2;
+        text-align: center;
     }
 
     .community .content-intro__content {
@@ -183,30 +186,32 @@
 
     .community__stats {
         gap: 3.2rem;
-        padding: 1rem;
+        padding: 4rem;
     }
 
     .community__stats-percent {
-        font-size: 5.4rem;
-        padding-bottom: 1rem;
+        font-size: 7.1rem;
+        padding-bottom: 1.6rem;
     }
 
     .community__stats-percent-text {
         font-size: 1.5rem;
         max-width: 22rem;
+        font-weight: normal;
     }
 
     .community__stats-review {
-        font-size: 1.9rem;
+        font-size: 2.2rem;
         padding-bottom: 1.4rem;
+        max-width: 30rem;
     }
 
     .community__stats-review-employee {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
 
     .community__stats-review-location {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
 
     .community__source {
@@ -220,7 +225,7 @@
     }
 
     .team-members-list {
-        padding-bottom: 0;
+        padding-bottom: 1rem;
     }
 
     .member__content {
@@ -237,23 +242,26 @@
     }
 
     .member__content-name {
-        font-size: 2.1rem;
+        font-size: 1.4rem;
+        line-height: 1.5em;
     }
 
-    .member__content-role-primary {
-        font-size: 1.7rem;
-    }
-
+    .member__content-role-primary,
     .member__content-role-secondary {
-        font-size: 1.7rem;
+        font-size: 1.2rem;
+        line-height: 1.2em;
     }
 
     .member__content-favourites {
-        font-size: 1.7rem;
+        font-size: 1.4rem;
+        padding-top: 1.6rem;
+        padding-bottom: 1.6rem;
+        line-height: 1.2em;
     }
 
     .member__content-quote {
-        font-size: 1.7rem;
+        font-size: 1.4rem;
+        line-height: 1.1em;
     }
 
     .arrow-right {
@@ -266,6 +274,15 @@
         border-top: 2rem solid transparent;
         border-bottom: 2rem solid transparent;
         border-right: 3rem solid #666666;
+    }
+
+    .tns-nav {
+        padding-top: 1.6rem;
+    }
+
+    .tns-nav > [aria-controls] {
+        width: 1.2rem;
+        height: 1.2rem;
     }
 
     [data-controls="prev"] {
@@ -358,35 +375,34 @@
 
     .ngt-button {
         align-self: end;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3rem;
     }
 
     .contact {
         padding-top: 3.2rem;
-        justify-items: left;
+        justify-items: center;
         padding-left: 2.3rem;
         padding-right: 2.3rem;
     }
 
     .contact-header {
-        font-size: 2.8rem;
+        font-size: 3rem;
     }
-
-    .contact-text-mobile {
-        font-size: 2rem;
-        text-align: left;
-        padding-bottom: 2.5rem;
+    .contact-text {
+        font-size: 1.6rem;
     }
-
     .contact-person {
-        gap: 2rem;
+        gap: 1.4rem;
     }
 
     .contact-img {
-        max-width: 6.8rem;
+        max-width: 4.0rem;
     }
 
     .contact-name {
-        font-size: 2.1rem;
+        font-size: 2.4rem;
     }
 
 }

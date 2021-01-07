@@ -788,10 +788,6 @@ hr {
     padding-bottom: 5.7rem;
 }
 
-.contact-text-mobile {
-    display: none;
-}
-
 .contact-person {
     display: grid;
     grid-template-columns: auto auto;
