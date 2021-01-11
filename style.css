@@ -524,6 +524,12 @@ hr {
     padding-top: 3.2rem;
     padding-bottom: 2.4rem;
 }
+.member__content-favourites > div {
+    margin-bottom: 0.5em;
+}
+.member__content-favourites > div:last-of-type {
+    margin-bottom: 0;
+}
 .member__content-favourites-bold {
     font-weight: bold;
 }
@@ -723,7 +729,8 @@ hr {
 }
 
 .job-postings__content a {
-    color: #000;
+    color: #00792b;
+    text-decoration: underline;
 }
 
 .job-postings__content-header {
