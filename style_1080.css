@@ -58,15 +58,15 @@
         max-width: 102rem;
     }
     .arrow-right {
-        border-top: 3rem solid transparent;
-        border-bottom: 3rem solid transparent;
-        border-left: 4rem solid #666666;
+        border-top: 2.1rem solid transparent;
+        border-bottom: 2.1rem solid transparent;
+        border-left: 2.8rem solid #999;
     }
 
     .arrow-left {
-        border-top: 3rem solid transparent;
-        border-bottom: 3rem solid transparent;
-        border-right: 4rem solid #666666;
+        border-top: 2.1rem solid transparent;
+        border-bottom: 2.1rem solid transparent;
+        border-right: 2.8rem solid #999;
     }
 
     .tns-ovh {

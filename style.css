@@ -565,17 +565,17 @@ hr {
 .arrow-right {
     width: 0;
     height: 0;
-    border-top: 3rem solid transparent;
-    border-bottom: 3rem solid transparent;
-    border-left: 5rem solid #666666;
+    border-top: 2.1rem solid transparent;
+    border-bottom: 2.1rem solid transparent;
+    border-left: 3.5rem solid #999;
 }
 
 .arrow-left {
     width: 0;
     height: 0;
-    border-top: 3rem solid transparent;
-    border-bottom: 3rem solid transparent;
-    border-right: 5rem solid #666666;
+    border-top: 2.1rem solid transparent;
+    border-bottom: 2.1rem solid transparent;
+    border-right: 3.5rem solid #999;
 }
 
 .tns-outer {
